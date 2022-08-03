@@ -1,16 +1,16 @@
 <x-guest-layout>
-    <div class="container bg-slate-400">
-        <h1>Kirándulás Nagymaroson</h1>
-        <h3>
+    <div>
+        <h1 class="text-2xl py-6 font-bold">Kirándulás Nagymaroson</h1>
+        <h3 class="text-lg my-4 font-semibold">
             Egynapos kirándulás Nagymaros szívében
         </h3>
-        <p>
+        <p class="text-base my-2">
             Nem kell külföldre utazni ahhoz, hogy csodás tájakon járjunk. Elég kiválasztani egy települést a
             Dunakanyarban, amely annyi látnivalóval és olyan páratlan dunai panorámával vár bennünket, mint a térség
             egyik legnépszerűbb városa, Nagymaros, ahol örök életre szóló élményekkel gazdagodhatunk. Mutatjuk, milyen
             emlékezetes lehet egy egynapos kirándulás Nagymaros szívében!
         </p>
-        <p>
+        <p class="text-base my-2">
             Itt a tavasz. Ebben a mesés évszakban rengeteg kiránduló érkezik a Dunakanyarba, mert a rohanó és túlterhelt
             hétköznapok után ez a festői táj nyújt igazán kellemes kikapcsolódást. Ha kirándulni megyünk, szép, izgalmas
             és különleges helyet keresünk.<br />
@@ -23,10 +23,10 @@
             csoda, hogy akik a városba érkeznek, azoknak a fő programot a Duna parti séták jelentik. Egyszerűen csak
             gyönyörködnek a látványban.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Kihagyhatatlan programok Nagymaroson
         </h3>
-        <p>
+        <p class="text-base my-2">
             Tavaly májusban nyílt meg Nagymaroson a Sváb Tájház, amelyet a város közösségi összefogása keltett életre.
             Itt a vitrinekből kivett, padláson talált régi tárgyak kerültek kiállításra. A látogatásra hétvégén és
             ünnepnapokon van lehetőség 10-18 óra között.<br />
@@ -38,7 +38,7 @@
             lebonyolítására, ráadásul igazán gyerekbarát az udvara is: van hinta, trambulin, és kergetőzni is lehet egy
             hatalmasat!
         </p>
-        <p>
+        <p class="text-base my-2">
             Természetesen – ahogyan minden évszakban – úgy nyáron is számtalan program közül válogathatunk, ha mindennél
             jobban vonz bennünket egy egynapos kirándulás Nagymaros környékén. A Misztrál Fesztivál, a Sváb Bierfest, a
             Szent István Napi Borünnep, a Csípős fesztivál, és a Kittenberger Kálmán Nap is hihetetlenül népszerű.<br />
@@ -48,21 +48,21 @@
             Sylvia Lak. A Kittenberger Nap érdekes és sokszínű programokkal várják az érdeklődőket a vadászat és a
             természetvédelem témakörében.
         </p>
-        <p>
+        <p class="text-base my-2">
             Akik szívesen sportolnának egy kicsit a kirándulás során, azok bérelhetnek kajakokat, kenukat a helyi csónak
             kölcsönzőből, és kedvükre evezhetnek a Dunán, saját tempóban felfedezve a környéket. Akár egészen a
             Szigetcsúcsig vagy Sóderszigetig is le lehet csorogni, ahol a legmelegebb napokon remek ötlet megmártózni a
             Dunában.
         </p>
-        <p>
+        <p class="text-base my-2">
             A város és a környék felfedezése biciklivel a legegyszerűbb és leggyorsabb! Nincs is annál boldogabb érzés,
             amikor a rózsaszín virágba borult főtéri fasor alatt elgurulunk, vagy éppen a Duna-parton található
             bicikliúton haladunk, és csodás kilátás tárul elénk.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             A katolikus templom időkapszulája
         </h3>
-        <p>
+        <p class="text-base my-2">
             Ha Nagymaroson járunk, érdemes megnézni a Római Katolikus templomot, amelyet nemrég újítottak fel kívülről;
             belül újrafestették a freskókat, az oltárt pedig renoválták. Az eredmény magáért beszél, a templom még
             méltóságteljesebb, mint valaha.<br />
@@ -76,10 +76,10 @@
             Ez azért hátborzogató és egyben picit felfoghatatlan, mert körülbelül száz év múlva találják majd meg a
             levelüket. Kimondani is sok, nemhogy elképzelni, mi lehet majd akkor.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Nagymarosi Termelői Piac
         </h3>
-        <p>
+        <p class="text-base my-2">
             A híres marosi piac hosszú évek óta vonzza a Fő térre szombat délelőttönként a marosiakat, sőt a
             környékbelieket is. Nem egy család van, aki Dunakesziről jár ide, de még akár Budapestről is, kizárólag a
             piaci hangulat kedvéért. A piac lényege, hogy minden portékát őstermelőktől tudunk beszerezni, így meg
@@ -98,10 +98,10 @@
             virágú cseresznyefák sora alatt. Vagy egyszerűen üljünk le egy csésze kávéval egy padra, és nézzük a
             forgatagot.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Gasztroélmények Nagymaroson
         </h3>
-        <p>
+        <p class="text-base my-2">
             Ha a nap folyamán megéheznénk, több választási lehetőségünk is van, mivel Nagymaros gyakorlatilag az összes
             étkezéssel kapcsolatos lehetséges igényt ki tudja elégíteni a vendéglátóhelyek sokszínűségéből adódóan. A
             nagymarosi révtől nem messze található a „Halas”. Az itt készült hekk messze földön híres, és mellette halad
@@ -125,10 +125,10 @@
             biciklivel, autóval egyaránt könnyen megközelíthető – parkoló található az étterem mellett: Panoráma
             parkoló.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Kézműves, mindenmentes, isteni
         </h3>
-        <p>
+        <p class="text-base my-2">
             Tavaly nyáron nyitott meg a Magyar utcában a Sakura cukrászda, ahol a kézműves fagylaltok és a sütemények
             között vannak cukormentes, tejmentes és paleo változatok is. A cukrászdához tartozik egy kis udvarrész, ott
             raklapokból stílusosan kialakított asztalok szolgálják a vendégek kényelmét.<br />
@@ -137,18 +137,18 @@
             Manifaktúra, Halas, Sakura, Rév büfé, Maros Étterem, Bor-só Streetfood, Édeske. Így jönnek sorrendben a
             vendéglátóhelyek, ha Vác felől érkezünk akár kocsival, akár biciklivel.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Kirándulás Nagymaroson
         </h3>
-        <p>
+        <p class="text-base my-2">
             A csodálatos dunai panoráma miatt mindenképpen érdemes felmenni a kálváriára is. Hiába ér fel egy kisebb
             túrával, a kilátás biztosan kárpótol. A kálvária a templomtól nem messze indul a házak között, és szépen
             fokozatosan emelkedik a lépcsősorral együtt a város fölé.
         </p>
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Érdekesség!
         </h3>
-        <p>
+        <p class="text-base my-2">
             A Kálvária lépcsőit az 1920-as években nagymarosi családok építtették, sok lépcsőn még olvasható az építtető
             neve.<br />
 
@@ -161,10 +161,10 @@
             Felejthetetlen élménnyel gazdagodhatnak!
         </p>
 
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Nagymaros megközelítése
         </h3>
-        <p>
+        <p class="text-base my-2">
             Aki Nagymarosra látogat, annak könnyű dolga lesz az élményszerzésben, hiszen már az utazás is izgalmas:
             jöhet akár sétahajóval is, amelynek a fedélzetéről páratlan látvány tárul a szeme elé. Ritkán csodálhatunk
             meg városokat egy hajóról, általában az így szerzett élmények még különlegesebbnek hatnak, ha a tervünk egy
@@ -179,10 +179,10 @@
             biztonságos, egyedül a Halasnál keresztezi az autóutat, mivel a főútról itt kanyarodnak le a komphoz.
         </p>
 
-        <h3>
+        <h3 class="text-lg mb-2 font-semibold">
             Komppal Nagymarosra
         </h3>
-        <p>
+        <p class="text-base my-2">
             A komp számos plusz lehetőséget kínál a kirándulók számára.<br />
 
             Ha a túloldalról érkeznénk Nagymarosra, akkor a legokosabb az autót ott hagyni, és gyalogosan (vagy
