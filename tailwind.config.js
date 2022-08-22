@@ -11,9 +11,18 @@ module.exports = {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+            colors: {
+                'baseBlue': '#005BA0',
+                'linkColor': '#8B5CF6',
+                'sky': '#0EA5E9',
+                'black-text' : '#1d1d1b',
             },
+            fontFamily: {
+                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+            },
+            backgroundImage: {
+                'cover-image': "url('/images/varosunk/nagymaros_banner-scaled.jpeg')",
+            }
         },
     },
 
