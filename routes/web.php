@@ -1,5 +1,6 @@
 <?php
-
+use App\Http\Controllers\HirekController;
+use App\Http\Controllers\RendeletController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -159,6 +160,15 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/admin/news', function () {
-        return view('vendor/jetstream/hirek-form');
+        return view('vendor/jetstream/hirek-form', [HirekController::class]);
     })->name('hirek-form');
+    Route::get('/admin/rendeletek', function () {
+        return view('vendor/jetstream/rendeletek', [RendeletController::class, 'index']);
+    })->name('rendeletek');
+    Route::get('/admin/hatarozatok', function () {
+        return view('vendor/jetstream/hatarozatok', [RendeletController::class, 'index']);
+    })->name('hatarozatok');
+    Route::get('/admin/osszes-hatarozat', function () {
+        return view('vendor/jetstream/osszes-hatarozat', [RendeletController::class, 'index']);
+    })->name('osszes-hatarozat');
 });
