@@ -1,13 +1,13 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Református</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Református</h1>
 
         <div class="grid grid-cols-3 gap-2 bg-slate-900 text-white mt-6 mb-4">
             <div class="mx-auto my-auto">
                 <img class="" src="{{ asset('images/varosunk/reformatus.jpeg') }}" alt="logo" />
             </div>
             <div class="p-4 self-center col-span-2">
-                <h2 class="text-xl font-bold mb-4">
+                <h2 class="text-xl mb-4">
                     A reformátusság története Nagymaroson
                 </h2>
                 <p>
@@ -25,7 +25,7 @@
                 </p>
             </div>
         </div>
-        <h2 class="text-2xl font-bold mt-6 mb-4">
+        <h2 class="text-2xl mt-6 mb-4">
             A reformátusság története Nagymaroson
         </h2>
         <p>
@@ -40,7 +40,7 @@
             köszönhetően torony nélkül. A templom 1934-ben való átépítésekor kapta meg mai állapotát, Kós Károly tervei
             alapján.
         </p>
-        <h2 class="text-2xl font-bold mt-6 mb-4">
+        <h2 class="text-2xl mt-6 mb-4">
             A Nagymarosi Református Egyházközség élete ma
         </h2>
         <p>
@@ -50,7 +50,7 @@
             egyaránt. Küldetésünk, hogy az Úr Jézus Krisztusról szóló örömhírt tudjuk átadni városunkban. Szeretettel és
             nyitott szívvel fogadunk mindenkit, aki betér hozzánk.
         </p>
-        <h2 class="text-2xl font-bold mt-6 mb-4">
+        <h2 class="text-2xl mt-6 mb-4">
             Hitéleti alkalmaink:
         </h2>
         <p>
@@ -67,7 +67,7 @@
         </p>
         <div class="mx-auto max-w-2xl my-10">
             <div class="bg-slate-900 text-white rounded-xl p-4 grid grid-cols-2 gap-2">
-                <h2 class="text-2xl font-bold mb-4 col-span-2">Elérhetőségeink</h2>
+                <h2 class="text-2xl mb-4 col-span-2">Elérhetőségeink</h2>
                 <div class="px-4">
                     <p>Nagymarosi Református Egyházközség</p>
                     <p>2626 Nagymaros, Váci út 19.<br /><span class="text-green-400">Levelezési cím</span></p>
@@ -77,7 +77,7 @@
                 <p class="px-4">+36 20 946 5405<br /><span class="text-green-400">telefon</span></p>
                 <p class="px-4">nagymaros@reformatus.hu<br /><span class="text-green-400">e-mail</span></p>
 
-                <p class="px-4"><a
+                <p class="px-4"><a class="text-blue-500 hover:text-blue-400"
                         href="www.facebook.com/reformatusnagymaros">www.facebook.com/reformatusnagymaros</a><br /><span
                         class="text-green-400">További információ</span></p>
             </div>

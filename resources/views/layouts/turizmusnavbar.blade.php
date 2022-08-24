@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
-    <div class="relative bg-slate-900 font-extrabold">
+    <div class="relative bg-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                 <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -24,30 +24,30 @@
                 </div>
                 <nav class="hidden md:flex space-x-10">
                     <a href="/turizmus/latnivalok"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Látnivalók </a>
                     <a href="/turizmus/szallashelyek"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Szálláshelyek </a>
                     <a href="/turizmus/vendeglatas"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Vendéglátás </a>
                     <a href="/turizmus/sport-szabadido"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Sport, szabadidő </a>
 
 
                     <a href="/turizmus/programlehetosegek"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Programlehetőségek </a>
                     <a href="/turizmus/muveszet"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Művészet </a>
                     <a href="/turizmus/esemenynaptar"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Eseménynaptár </a>
                     <a href="/turizmus/terkepek"
-                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-extrabold font-medium hover:text-green-500">
+                        class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Térképek </a>
                 </nav>
             </div>

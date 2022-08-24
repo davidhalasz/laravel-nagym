@@ -1,9 +1,9 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">A Képviselő-testület állandó bizottságai</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">A Képviselő-testület állandó bizottságai</h1>
         <div class="grid grid-cols-2 gap-2 text-white mt-10">
             <div class="bg-slate-900 p-6 rounded-xl">
-                <h2 class="text-lg mb-2">
+                <h2 class="text-lg mb-4">
                     Humán, szociális, kulturális, ügyrendi, összeférhetetlenségi és szavazatszámláló bizottság
                 </h2>
                 <p>
@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="bg-slate-900 p-6 rounded-xl">
-                <h2 class="text-lg mb-2">
+                <h2 class="text-lg mb-4">
                     Városfejlesztési, turizmusfejlesztési és környezetvédelmi bizottság
                 </h2>
                 <p>
@@ -19,7 +19,7 @@
                 </p>
             </div>
             <div class="bg-slate-900 p-6 rounded-xl">
-                <h2 class="text-lg mb-2">
+                <h2 class="text-lg mb-4">
                     Pénzügyi és gazdasági bizottság
                 </h2>
                 <p>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="bg-slate-900 p-6 rounded-xl">
-                <h2 class="text-lg mb-2">
+                <h2 class="text-lg mb-4">
                     Közbiztonság
                 </h2>
                 <p>

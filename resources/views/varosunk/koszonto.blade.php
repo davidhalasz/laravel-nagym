@@ -1,13 +1,13 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Köszöntő</h1>
-        <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4 font-semibold">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Köszöntő</h1>
+        <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4">
             <div class="mx-auto my-auto">
                 <img src="{{ asset('images/varosunk/Balázs-768x512.jpeg') }}" alt="logo" />
             </div>
             <div class="p-6 self-center text-white">
                 <p>
-                    <span class="font-extrabold">Szeretettel üdvözlöm Nagymaros honlapján!</span><br /><br />
+                    <span class="">Szeretettel üdvözlöm Nagymaros honlapján!</span><br /><br />
 
                     Honlapunkon Nagymaros polgárai és vendégeink egyaránt számukra fontos információkat találhatnak. A
                     helyben lakók az őket érintő hivatali és egyéb ügyekben, míg vendégeink az itt tartózkodásukat
@@ -17,7 +17,7 @@
         </div>
 
 
-        <p class="text-black font-extrabold">
+        <p class="text-black">
             Városunkról: Nagymaros talán az ország legszebb fekvésű, és panorámájú kisvárosa. A Dunakanyarban,
             Budapesttől 52 km-re, a Duna bal partján, a Börzsönyből lefutó völgyekben, dombhátakon és a Duna partján
             fekszik. Nagymaros környezete természeti szépségekben és kultúrtörténeti emlékekben egyaránt gazdag. A

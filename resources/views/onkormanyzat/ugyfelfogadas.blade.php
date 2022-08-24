@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Ügyfélfogadás</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Ügyfélfogadás</h1>
 
 
         <div class="bg-slate-900 text-white rounded-xl w-fit mx-auto">

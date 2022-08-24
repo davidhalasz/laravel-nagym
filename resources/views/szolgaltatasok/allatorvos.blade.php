@@ -1,10 +1,10 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Állatorvosi rendelő</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Állatorvosi rendelő</h1>
         <div class="grid grid-cols-2 gap-4 w-fit mx-auto p-6 bg-slate-900 text-white">
             <div class="my-auto">
                 <p class="pb-4">
-                    <span class="font-bold text-2xl">Dr. Drobilich János</span>
+                    <span class="text-2xl">Dr. Drobilich János</span>
                 </p>
                 <p>
                    2626 Nagymaros, Radnóti M. u. 1.<br /><span class="text-green-400">Cím</span><br/><br/>

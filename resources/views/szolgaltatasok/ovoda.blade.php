@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Nagymarosi Napközi Otthonos Óvoda</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Nagymarosi Napközi Otthonos Óvoda</h1>
 
         <div class="grid grid-cols-3 gap-4 bg-slate-900 text-white mt-6 mb-4">
             <div class="my-auto ">
@@ -57,7 +57,7 @@
                 ovoda [kukac] nagymaros.hu<br /><span class="text-green-500">E-mail</span>
             </div>
             <div class="bg-slate-900 rounded-xl p-4">
-                <p class="font-bold text-lg mb-2">
+                <p class="text-lg mb-2">
                     Feladatellátási helyek:
                 </p>
                 <div class="border border-slate-400 rounded-xl p-4 mb-2">

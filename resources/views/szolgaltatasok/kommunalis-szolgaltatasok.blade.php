@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Kommunális szolgáltatások</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Kommunális szolgáltatások</h1>
         <p>
             2017. április 1. napjától a “Zöld Híd B.I.G.G.” Környezetvédelmi és Hulladékgazdálkodási Nonprofit Kft.
             (székhely: 2100 Gödöllő, Dózsa György út 69., telephely: 2144 Kerepes, Ökörtelek-völgyi Hulladékkezelő

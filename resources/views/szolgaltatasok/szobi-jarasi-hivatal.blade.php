@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Szobi Járási Hivatal</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Szobi Járási Hivatal</h1>
         <div class="bg-slate-900 text-white p-6">
             <p>
                 A Járási Hivatal Nagymarosi okmányirodájához tartozó települések:<br /><br />

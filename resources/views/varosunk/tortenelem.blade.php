@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Történelem</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Történelem</h1>
 
         <div class="grid grid-cols-2 gap-4 bg-black text-white mt-6 mb-4">
             <div class="p-6 self-center">

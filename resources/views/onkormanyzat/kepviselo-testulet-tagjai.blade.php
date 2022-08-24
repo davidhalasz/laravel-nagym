@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Képviselő-testület tagjai</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Képviselő-testület tagjai</h1>
         <div class="grid grid-cols-2 gap-2 text-white mt-10">
             <div class="bg-slate-900 rounded-xl p-4">
                 <h2 class="text-xl mb-4 text-center">

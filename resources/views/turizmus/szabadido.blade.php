@@ -1,10 +1,10 @@
 <x-turizmus>
-    <div class="container mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Sport, szabadidő</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Sport, szabadidő</h1>
 
-        <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
+        <div class=" mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Lovaglás
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -46,7 +46,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Két keréken…
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -74,7 +74,7 @@
                             szervízt keres:</p>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="grid grid-cols-2 gap-2 border border-white text-white p-4 rounded-xl">
-                                <div class="col-span-2 text-xl font-bold">Napkereki Küküllő</div>
+                                <div class="col-span-2 text-xl">Napkereki Küküllő</div>
                                 <div class="col-span-2">Nagymaros, Német u. 28.<br /><span
                                         class="text-green-400">cím</span></div>
                                 <div class="text-base">06-30-450-9336<br /><span class="text-green-400">telefon</span>
@@ -90,7 +90,7 @@
                                     Vasárnap: ZÁRVA<br /><span class="text-green-400">nyitvatartás</span></div>
                             </div>
                             <div class="grid grid-cols-2 gap-2 border border-white  text-white p-4 rounded-xl">
-                                <div class="col-span-2 text-xl font-bold">aCélkecske</div>
+                                <div class="col-span-2 text-xl">aCélkecske</div>
                                 <div class="base-text col-span-2">
                                     Bringa és info Pont<br />
                                     Kerékpár kölcsönző, bringabolt és szerviz, pihenő és frissítő pont
@@ -117,7 +117,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Vadászat
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -155,8 +155,8 @@
                             információval szolgálhat:</p>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="grid grid-cols-2 gap-2 border border-white text-white p-4 rounded-xl">
-                                <div class="col-span-2 text-xl font-bold">Sukerek János:<br />
-                                    Kittenberger Kálmán Vadásztársaság elnöke</div>
+                                <div class="col-span-2 text-xl">Sukerek János:<br />
+                                    <span class="text-base">Kittenberger Kálmán Vadásztársaság elnöke</span></div>
                                 <div class="col-span-2">2626 Nagymaros, Zoltán u. 7.<br /><span
                                         class="text-green-400">cím</span>
                                 </div>
@@ -171,8 +171,8 @@
                                         class="text-green-400">weboldal</span></div>
                             </div>
                             <div class="grid grid-cols-2 gap-2 border border-white  text-white p-4 rounded-xl">
-                                <div class="col-span-2 text-xl font-bold">Borka Róbert <br />
-                                    Ipoly Erdő Zrt.
+                                <div class="col-span-2 text-xl">Borka Róbert <br />
+                                    <span class="text-base">Ipoly Erdő Zrt.</span>
                                 </div>
                                 <div class="col-span-2">2626 Nagymaros, fő tér 1.<br /><span
                                         class="text-green-400">cím</span></div>
@@ -191,7 +191,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Vízparton
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -264,7 +264,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Hegyen, völgyön…
                 </h2>
                 <span class="open-toggle" id="toggle-icon">

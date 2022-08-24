@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Orvos, gyógyászat, gyógyszertár, szociális szolgáltatás</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Orvos, gyógyászat, gyógyszertár, szociális szolgáltatás</h1>
 
         <div class="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
             <div class="bg-slate-900 rounded-xl text-white text-center py-4 ">
@@ -62,7 +62,7 @@
         <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4 max-w-3xl mx-auto">
             <div class="mx-auto my-auto">
                 <div class="w-fit mx-auto">
-                    <p class="font-bold text-xl pb-6">Dr. Zombori Klára</p>
+                    <p class="text-xl pb-6">Dr. Zombori Klára</p>
                     <p class="text-base">
                         TÁLTOS-2003. Egészségügyi Szolgáltató Kft.<br />
                         2626 Nagymaros, Fő tér 10-12.<br /><span class="text-green-500">Cím</span><br /><br />
@@ -103,7 +103,7 @@
         <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4 max-w-3xl mx-auto">
             <div class="mx-auto my-auto">
                 <div class="w-fit mx-auto">
-                    <p class="font-bold text-xl pb-6">Dr. Bíró Géza fogorvos</p>
+                    <p class="text-xl pb-6">Dr. Bíró Géza fogorvos</p>
                     <p>
                         2626 Nagymaros, Fő tér 10-12.<br /><span class="text-green-500">Cím</span><br /><br />
                         27/354-401<br /><span class="text-green-500">Telefonszám</span>
@@ -143,7 +143,7 @@
             <div class="mx-auto my-auto">
                 <div class="w-fit mx-auto ml-6">
                     <p class="pb-4">
-                        <span class="font-bold text-xl">Dr Hajnal Katalin csecsemő- és gyermekgyógyász
+                        <span class="text-xl">Dr Hajnal Katalin csecsemő- és gyermekgyógyász
                             szakorvos</span><br />
                         <span class="text-green-400">Gyermekorvos</span>
                     </p>
@@ -259,7 +259,7 @@
                         <span class="font-bold text-2xl">I. Védőnői Körzet:</span>
                     </p>
                     <p class="pb-6 text-xl">
-                        <span class="font-bold">Kőházy Andrea</span>
+                        <span class="">Kőházy Andrea</span>
                     </p>
                     <p>
                         2626 Nagymaros, Fő tér 10-12.<br /><span class="text-green-500">Cím</span><br /><br />
@@ -308,7 +308,7 @@
                         <span class="font-bold text-2xl">II. Védőnői Körzet:</span>
                     </p>
                     <p class="pb-6 text-xl">
-                        <span class="font-bold">Németh Katalin</span>
+                        <span class="">Németh Katalin</span>
                     </p>
                     <p>
                         2626 Nagymaros, Fő tér 10-12.<br /><span class="text-green-500">Cím</span><br /><br />
@@ -409,7 +409,7 @@
             <div class="my-auto">
                 <div class="w-fit ml-6">
                     <p class="pb-4">
-                        <span class="font-bold text-2xl">Aranykorona Gyógyszertár</span>
+                        <span class="text-2xl">Aranykorona Gyógyszertár</span>
                     </p>
                     <p>
                         2626 Nagymaros, Fő tér 10-12.<br /><span class="text-green-500">Cím</span><br /><br />
@@ -452,7 +452,7 @@
 
         <h2 class="text-2xl pt-6 pb-2">Szent Lőrinc Szociális Szolgáltató</h2>
         <div class="grid grid-cols-1 gap-4 bg-slate-900 text-white w-fit p-6 rounded-xl">
-            <h3 class="text-lg py-2 font-bold">Elérhetőségek</h3>
+            <h3 class="text-xl py-2">Elérhetőségek</h3>
             <p class="pb-2 ml-4">
                 2626 Nagymaros, Dózsa Gy. út 5.<br /><span class="text-green-500">Cím</span><br /><br />
                 27/633-695<br /><span class="text-green-500">Telefon</span><br /><br />

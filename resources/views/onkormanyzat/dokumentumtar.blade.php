@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Dokumentumtár</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Dokumentumtár</h1>
 
         <h2 class="text-2xl mb-4">
             Igénybejelentőlap tartós szabadságkorlátozást elszenvedettek részére

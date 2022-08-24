@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Nagymaros címerei</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Nagymaros címerei</h1>
         <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4">
             <div class="mx-auto my-auto">
                 <img src="{{ asset('images/varosunk/Balázs-768x512.jpeg') }}" alt="logo" />

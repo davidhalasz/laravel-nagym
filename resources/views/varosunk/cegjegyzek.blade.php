@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Cégjegyzék</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Cégjegyzék</h1>
 
         <h2 class="mt-6 mb-2 col-span-2 text-xl">
             Szűrési feltételek
@@ -31,13 +31,13 @@
                     Élelmiszer, ital boltok
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Kóka Bt.</div>
+                    <div class="col-span-2 text-xl">Kóka Bt.</div>
                     <div class="col-span-2">Élelmiszer, Virág</div>
                     <div class="text-base">Váci út<br /><span class="text-green-400">Cím</span></div>
                     <div class="col-span-2">H-V: 6:00-19:00<br /><span class="text-green-400">Nyitva tartás</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Tokaji Bortár</div>
+                    <div class="col-span-2 text-xl">Tokaji Bortár</div>
                     <div class="col-span-2">Fitomark 94 Kft.<br /><span class="text-green-400">Pontos név</span></div>
                     <div class="text-base col-span-2">Mainzi u. 12<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base ">27/354-154<br /><span class="text-green-400">Telefon</span></div>
@@ -46,7 +46,7 @@
                         Sz-V: 9:00-12:00<br /><span class="text-green-400">Nyitva tartás</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Zöldség-Gyümölcs-Kiskereskedés</div>
+                    <div class="col-span-2 text-xl">Zöldség-Gyümölcs-Kiskereskedés</div>
                     <div class="col-span-2">Balázs Róbertné<br /><span class="text-green-400">Pontos név</span></div>
                     <div class="text-base col-span-2">Váci út 80.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base col-span-2">H-P: 6:00-20:00<br />
@@ -56,7 +56,7 @@
                             télen</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Juli zöldséges</div>
+                    <div class="col-span-2 text-xl">Juli zöldséges</div>
                     <div class="col-span-2">Magyar u. 26.<br /><span class="text-green-400">Cím</span></div>
                     <div class="col-span-2">30-476-48-43<br /><span class="text-green-400">Telefon</span></div>
                     <div class="col-span-2">H-P: 7:00-19:00<br />
@@ -64,7 +64,7 @@
                         V: 7:00-12:00<br /><span class="text-green-400">Nyitva tartás</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Élelmiszer bolt – Manyi</div>
+                    <div class="col-span-2 text-xl">Élelmiszer bolt – Manyi</div>
                     <div class="col-span-2">Fő tér 22.<br /><span class="text-green-400">Cím</span></div>
                     <div class="col-span-2">30-437-72-05<br /><span class="text-green-400">Telefon</span></div>
                     <div class="col-span-2">H-P: 6:30-18:00<br />
@@ -72,7 +72,7 @@
                         V: 7:00-12:00<br /><span class="text-green-400">Nyitva tartás</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">CBA Nagymaros Trade Kft.</div>
+                    <div class="col-span-2 text-xl">CBA Nagymaros Trade Kft.</div>
                     <div class="col-span-2">Magyar u. 21.<br /><span class="text-green-400">Cím</span></div>
                     <div class="">27/595-510<br /><span class="text-green-400">Telefon</span></div>
                     <div class="">cbanagymaros@invitel.hu<br /><span class="text-green-400">Email</span></div>
@@ -91,7 +91,7 @@
                     Műszaki kereskedelem
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">KSTIHL Márkaszervíz</div>
+                    <div class="col-span-2 text-xl">KSTIHL Márkaszervíz</div>
                     <div class="col-span-2">Kerti gépek javítása, forgalmazása.</div>
                     <div class="col-span-2">PIDOMA Kft.<br /><span class="text-green-400">Pontos név</span></div>
                     <div class="text-base">Halász u. 14.<br /><span class="text-green-400">Cím</span></div>
@@ -112,7 +112,7 @@
                     Bank, biztosítás
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Veresegyház és Vidéke Takarékszövetkezet Nagymarosi
+                    <div class="col-span-2 text-xl">Veresegyház és Vidéke Takarékszövetkezet Nagymarosi
                         Kirendeltsége</div>
                     <div class="text-base col-span-2">2626 Nagymaros, Király utca 1/a. <br /><span
                             class="text-green-400">Cím</span></div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Dunakanyar Első Hitel és Biztosító Iroda</div>
+                    <div class="col-span-2 text-xl">Dunakanyar Első Hitel és Biztosító Iroda</div>
                     <div class="text-base">Váci út 13.<br /><span class="text-green-400">Cím</span></div>
                     <div class="col-span-2">nemethheringildiko@invitel.hu<br /><span
                             class="text-green-400">Email</span>
@@ -148,7 +148,7 @@
                     Egyéb Szolgáltatás
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Kutyakanyar Állatorvosi Rendelő</div>
+                    <div class="col-span-2 text-xl">Kutyakanyar Állatorvosi Rendelő</div>
                     <div class="text-base">Nagymaros, Radnóti u. 1.<br /><span class="text-green-400">Cím</span></div>
                     <div class="col-span-2">0620/468-2846<br /><span class="text-green-400">Telefon</span></div>
                     <div class="col-span-2">H: 8:00-10:00, 16:00-18:00<br />
@@ -161,8 +161,8 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">CsG és Társa Mezőgazdasági és Szolgáltató Bt.</div>
-                    <div class="col-span-2">Veszélyes fák kivágása alpintechnikával, fakivágás, gallyazás, fűkaszálás,
+                    <div class="col-span-2 text-xl">CsG és Társa Mezőgazdasági és Szolgáltató Bt.</div>
+                    <div class="col-span-2">Szolgáltatások: Veszélyes fák kivágása alpintechnikával, fakivágás, gallyazás, fűkaszálás,
                         fűnyírás, bozótírás, parlagfű irtás, telektisztítás, ág darálás, tűzifa értékesítés, fuvarozás
                     </div>
                     <div class="text-base col-span-2">2626, Nagymaros, Tamási Áron. u. 10.<br /><span
@@ -172,13 +172,13 @@
                     <div class="col-span-2">csgbt@t-online.hu<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Földmérő</div>
+                    <div class="col-span-2 text-xl">Földmérő</div>
                     <div class="text-base col-span-2">Nagy János Zoltán<br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="col-span-2">0620/468-7133<br /><span class="text-green-400">Telefon</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">MAURER-MORVAI ÜGYVÉDI IRODA</div>
+                    <div class="col-span-2 text-xl">MAURER-MORVAI ÜGYVÉDI IRODA</div>
                     <div class="text-base col-span-2">Millenium sor 2. I/4.<br /><span
                             class="text-green-400">Cím</span>
                     </div>
@@ -188,7 +188,7 @@
                     <div class="col-span-2">Ügyfélfogadási idő: előzetes egyeztetés alapján.</div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Zoller és Társa Kft.</div>
+                    <div class="col-span-2 text-xl">Zoller és Társa Kft.</div>
                     <div class="col-span-2">Fő tevékenysége: fémszerkezetek gyártása és szerelése, gépek és
                         berendezések
                         szerelése és javítása.</div>
@@ -199,7 +199,7 @@
                     <div class="col-span-2">info@zoller.hu<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">VIA VARIA Kft.</div>
+                    <div class="col-span-2 text-xl">VIA VARIA Kft.</div>
                     <div class="col-span-2">Komplex (műszaki, gazdasági, kereskedelmi) cégátvilágítás, cég működésének
                         kontrollingja, jelentések értékelése, üzleti modellezés, csődmenedzselés, végelszámolás,
                         bankbiztosi
@@ -212,7 +212,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Hűtőgép és klímaszerelés</div>
+                    <div class="col-span-2 text-xl">Hűtőgép és klímaszerelés</div>
                     <div class="col-span-2">Tömör József</div>
                     <div class="text-base col-span-2">2626 Nagymaros, Vasút u. 36.<br /><span
                             class="text-green-400">Cím</span></div>
@@ -222,7 +222,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Tharan Trieb Marianne</div>
+                    <div class="col-span-2 text-xl">Tharan Trieb Marianne</div>
                     <div class="col-span-2">Fordítás alábbi nyelvekről és nyelvekre, valamint lektorálás, tolmácsolás:
                         magyar-német-angol-francia-holland-maláj/indonéz</div>
                     <div class="text-base col-span-2">2626 Nagymaros, Bokréta u. 3.<br /><span
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">MarosVill FiberContact Kft</div>
+                    <div class="col-span-2 text-xl">MarosVill FiberContact Kft</div>
                     <div class="col-span-2">Fordítás alábbi nyelvekről és nyelvekre, valamint lektorálás, tolmácsolás:
                         magyar-német-angol-francia-holland-maláj/indonéz</div>
                     <div class="text-base col-span-2">Nagymaros, Kossuth sor 30.<br /><span
@@ -244,7 +244,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Börzsöny-Ker Kft.</div>
+                    <div class="col-span-2 text-xl">Börzsöny-Ker Kft.</div>
                     <div class="col-span-2">Ipari takarítás, irodatakarítás, takarítás, tisztítás. Vállalatunk
                         elsősorban
                         irodaházak, ipari területek és önkormányzatok napi- és időszakos takarítási feladatait végzi.
@@ -259,7 +259,7 @@
                     <div class="">borzsonyker@invitel.hu<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Birgit Köblitz-Glass Artist</div>
+                    <div class="col-span-2 text-xl">Birgit Köblitz-Glass Artist</div>
                     <div class="col-span-2">Építészekkel és kézművesekkel együttműködve elsősorban az igényes
                         nagyformátumú
                         építészeti üvegprojektek azok, amelyek gyümölcsözően hatnak művészeti munkámra, mivel ott az
@@ -274,14 +274,14 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Kutyakanyar-Kutyakozmetika</div>
+                    <div class="col-span-2 text-xl">Kutyakanyar-Kutyakozmetika</div>
                     <div class="text-base col-span-2">Radnóti M. u. 1.<br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="text-base">20-584-80-20 <br /><span class="text-green-400">Telefon</span></div>
                     <div class="">Nyitva tartás: Rugalmas.</div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Maros Alpin Bt.</div>
+                    <div class="col-span-2 text-xl">Maros Alpin Bt.</div>
                     <div class="col-span-2">Szolgáltatás megnevezése: Ipari alpinizmus, fakivágás, stb.</div>
                     <div class="text-base col-span-2">Selmecbánya u. 3. <br /><span class="text-green-400">Cím</span>
                     </div>
@@ -290,7 +290,7 @@
                     <div class="">Nyitva tartás: igény szerint</div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">KSTIHL Márkaszervíz</div>
+                    <div class="col-span-2 text-xl">KSTIHL Márkaszervíz</div>
                     <div class="col-span-2">Kerti gépek javítása, forgalmazása.</div>
                     <div class="col-span-2">PIDOMA Kft.<br /><span class="text-green-400">Pontos név</span></div>
                     <div class="text-base">Halász u. 14.<br /><span class="text-green-400">Cím</span></div>
@@ -303,7 +303,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">David Balazic cipészműhely</div>
+                    <div class="col-span-2 text-xl">David Balazic cipészműhely</div>
                     <div class="text-base col-span-2">Vasút u. 3.<br /><span class="text-green-400">Cím</span></div>
                     <div class="">20-350-36-05<br /><span class="text-green-400">Telefon</span></div>
                     <div class="text-base">david@luxuscipo.hu<br /><span class="text-green-400">Email</span></div>
@@ -317,7 +317,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Dunakanyar Fotóstudió</div>
+                    <div class="col-span-2 text-xl">Dunakanyar Fotóstudió</div>
                     <div class="col-span-2">Németh Zoltán Pál</div>
                     <div class="col-span-2">Szolgáltatás megnevezése: Esküvők, rendezvények fotózása, video felvétele.
                     </div>
@@ -328,7 +328,7 @@
                     <div class="">Nyitva tartás: igény szerint</div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Bútorlapszabászat, Bútorkészítés</div>
+                    <div class="col-span-2 text-xl">Bútorlapszabászat, Bútorkészítés</div>
                     <div class="col-span-1">Maros Span Kft.<br /><span class="text-green-400">Pontos név</span></div>
                     <div class="col-span-2">Szolgáltatás: bútorlap méretre vágása, egyedi bútorkészítése, konyhabútor,
                         szobabútor, fürdőszoba bútor készítése, irodabútor készítése. Bútorlap, MDF lapok, rétegelt
@@ -349,7 +349,7 @@
                     Építőipar
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Zoller és Társa Kft.</div>
+                    <div class="col-span-2 text-xl">Zoller és Társa Kft.</div>
                     <div class="col-span-2">Fő tevékenysége: fémszerkezetek gyártása és szerelése, gépek és
                         berendezések
                         szerelése és javítása.</div>
@@ -360,7 +360,7 @@
                     <div class="col-span-2">info@zoller.hu<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Fények Háza</div>
+                    <div class="col-span-2 text-xl">Fények Háza</div>
                     <div class="col-span-2">Minőségi műanyag nyílászárók, párkányok és árnyékolástechnikai termékek
                         értékesítése és beépítése.</div>
                     <div class="text-base col-span-2">Nagymaros, Magyar utca 8.<br /><span
@@ -376,7 +376,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">HÓD Kft.</div>
+                    <div class="col-span-2 text-xl">HÓD Kft.</div>
                     <div class="col-span-2">Építőipari generál kivitelezés közintézmények, családi házak építése
                         műemléképületek felújítása lakásfelújítás</div>
                     <div class="text-base col-span-2">Nagymaros, Tégla u. 6.<br /><span
@@ -389,7 +389,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Heier és Társa Bt.</div>
+                    <div class="col-span-2 text-xl">Heier és Társa Bt.</div>
                     <div class="col-span-2">Ács, tetőfedő és gipszkarton munkák tetőszerkezet készítése és fedése,
                         faszerkezetes házak készítése, tetőtér beépítés, szaletlik, pergolák, kerti kiülők készítése.
                     </div>
@@ -401,7 +401,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Együd József – Gáz-Víz-Központi fűtés szerelés</div>
+                    <div class="col-span-2 text-xl">Együd József – Gáz-Víz-Központi fűtés szerelés</div>
                     <div class="col-span-2">Víz, fűtés szerelés, csatornázás, kőműves és ács munkák, hideg-meleg
                         burkolás,
                         hőszigetelés, új házak építése komplett, régi házak felújítása
@@ -416,7 +416,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Maros Ács Kft.</div>
+                    <div class="col-span-2 text-xl">Maros Ács Kft.</div>
                     <div class="text-base col-span-2">Maros Ács Építőipari és Szolgáltató Kft<br /><span
                             class="text-green-400">Pontos név</span></div>
                     <div class="text-base col-span-2">Komárom u. 3/b<br /><span class="text-green-400">Cím</span>
@@ -425,7 +425,7 @@
                     <div class="col-span-2">marosacs@gmail.com<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Marosi Fain Bt.</div>
+                    <div class="col-span-2 text-xl">Marosi Fain Bt.</div>
                     <div class="text-base col-span-2">Egyedi fa külső és belső nyílászárók gyártása, belsőépítészet.
                     </div>
                     <div class="text-base col-span-2">Kassák u. 14.<br /><span class="text-green-400">Cím</span></div>
@@ -440,7 +440,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Piramis Építőház Kft.</div>
+                    <div class="col-span-2 text-xl">Piramis Építőház Kft.</div>
                     <div class="text-base col-span-2">Minden, ami egy építkezéshez, felújításához szükséges, nálunk
                         megtalálható.</div>
                     <div class="text-base col-span-2">Váci út 58.<br /><span class="text-green-400">Cím</span></div>
@@ -465,7 +465,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Házépítők Boltja</div>
+                    <div class="col-span-2 text-xl">Házépítők Boltja</div>
                     <div class="text-base col-span-2">Nagymarosi Eptü Kft.<br /><span class="text-green-400">Pontos
                             név</span></div>
                     <div class="text-base col-span-2">Millenium sor<br /><span class="text-green-400">Cím</span></div>
@@ -490,7 +490,7 @@
                     Vendéglátás
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Sakura Cukrászda</div>
+                    <div class="col-span-2 text-xl">Sakura Cukrászda</div>
                     <div class="col-span-2">Minőségi alapanyagokból készülő cukrászsütemények, fagylaltok,
                         kávékülönlegességek, reggeli.</div>
                     <div class="text-base col-span-2">Magyar utca 11.<br /><span class="text-green-400">Cím</span>
@@ -502,7 +502,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Nokedli Önkiszolgáló Étterem</div>
+                    <div class="col-span-2 text-xl">Nokedli Önkiszolgáló Étterem</div>
                     <div class="col-span-2">Minőségi műanyag nyílászárók, párkányok és árnyékolástechnikai termékek
                         értékesítése és beépítése.</div>
                     <div class="text-base col-span-2">Király utca 2.<br /><span class="text-green-400">Cím</span>
@@ -517,7 +517,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Mátyás Étkezde</div>
+                    <div class="col-span-2 text-xl">Mátyás Étkezde</div>
                     <div class="col-span-2">
                         Mátyás Étkezde Nonprofit Kft.<br /><span class="text-green-400">Pontos név</span>
                     </div>
@@ -534,7 +534,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Piknik Manufaktúra</div>
+                    <div class="col-span-2 text-xl">Piknik Manufaktúra</div>
                     <div class="col-span-2">Duna-parton, kerékpár út mellett található ételbár és terasz. Kézműves
                         sörök,
                         házi szörpök, hazai pálinkák, hamburgerek, szendvicsek</div>
@@ -545,7 +545,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Sigil Galéria és Kávézó</div>
+                    <div class="col-span-2 text-xl">Sigil Galéria és Kávézó</div>
                     <div class="col-span-2">Kávékülönlegességek, kulturális rendezvények, mozgáskultúra programok.
                     </div>
                     <div class="text-base col-span-2">Váci út 21. (Magyar utca felől bejárat)<br /><span
@@ -556,7 +556,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Maros Yacht Kikötő</div>
+                    <div class="col-span-2 text-xl">Maros Yacht Kikötő</div>
                     <div class="text-base col-span-2">Váci út 149. alatt Duna-part<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">27/594-040<br /><span class="text-green-400">Telefon</span></div>
@@ -565,7 +565,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Édeske Cukrászműhely, Édeske Szabad Konyha</div>
+                    <div class="col-span-2 text-xl">Édeske Cukrászműhely, Édeske Szabad Konyha</div>
                     <div class="text-base col-span-2">Cukrászműhely: Helyben sütött 40 féle süteménnyel, 30 féle
                         kézműves
                         fagylalttal, különleges tortákkal, Édeske kávéval és Belga csokoládé különlegességekkel várjuk
@@ -582,7 +582,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Bor-só Streetfood</div>
+                    <div class="col-span-2 text-xl">Bor-só Streetfood</div>
                     <div class="text-base col-span-2">Streetfood, ahogy a mamám szereti. </div>
                     <div class="text-base col-span-2">Fő tér 20.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">0630/618-5771<br /><span class="text-green-400">Telefon</span></div>
@@ -592,7 +592,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Bor-Piac</div>
+                    <div class="col-span-2 text-xl">Bor-Piac</div>
                     <div class="text-base col-span-2">Bár, italkereskedés, bor szaküzlet, helyi termékek.</div>
                     <div class="text-base col-span-2">Fő tér 16.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">0670/290-2707<br /><span class="text-green-400">Telefon</span></div>
@@ -604,7 +604,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Kis Francia pékség, reggeliző és ínyenc bolt</div>
+                    <div class="col-span-2 text-xl">Kis Francia pékség, reggeliző és ínyenc bolt</div>
                     <div class="text-base col-span-2">2626 Nagymaros, Magyar u 18.<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">0620/550-2046<br /><span class="text-green-400">Telefon</span></div>
@@ -616,7 +616,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Sólyom Kemping Étterem</div>
+                    <div class="col-span-2 text-xl">Sólyom Kemping Étterem</div>
                     <div class="text-base col-span-2">Sólyom-szigeti út 67.<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">27/355-575<br /><span class="text-green-400">Telefon/Fax</span></div>
@@ -627,7 +627,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Maros Étterem</div>
+                    <div class="col-span-2 text-xl">Maros Étterem</div>
                     <div class="text-base col-span-2">Béla sétány 1. Hajóállomás<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">27/354-576<br /><span class="text-green-400">Telefon/Fax</span></div>
@@ -641,7 +641,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Diófa büfé</div>
+                    <div class="col-span-2 text-xl">Diófa büfé</div>
                     <div class="text-base col-span-2">István tér 2. <br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="col-span-2">
@@ -650,10 +650,10 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">toBORzó Borpince</div>
+                    <div class="col-span-2 text-xl">toBORzó Borpince</div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Rév büfé</div>
+                    <div class="col-span-2 text-xl">Rév büfé</div>
                     <div class="col-span-2">Hamburger, melegszendvics, gyros, gofri, hot-dog, hideg üdítők, forró
                         italok, játék, ajándék, bizsu.</div>
                     <div class="text-base col-span-2">Kurczbacher Mihályné<br /><span class="text-green-400">Pontos
@@ -676,7 +676,7 @@
                     Autószerelők, autósboltok, autómosók, hajók
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Autómentés éjjel-nappal</div>
+                    <div class="col-span-2 text-xl">Autómentés éjjel-nappal</div>
                     <div class="col-span-2">Autómentés éjjel és nappal, külföldön és belföldön egyaránt. Karosszéria
                         javítás.</div>
                     <div class="col-span-2">Melts Miklós Norbert egyéni vállalkozó</div>
@@ -685,7 +685,7 @@
                     <div class="text-base">30/9322 213<br /><span class="text-green-400">Telefon</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Gumiszervíz</div>
+                    <div class="col-span-2 text-xl">Gumiszervíz</div>
                     <div class="col-span-2">MarosGumi</div>
                     <div class="text-base col-span-2">2626 Nagymaros, Váci út 96. (benzinkúttal szemben)<br /><span
                             class="text-green-400">Cím</span></div>
@@ -701,7 +701,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Nagymarosi Autójavító és Hajózási Kft.</div>
+                    <div class="col-span-2 text-xl">Nagymarosi Autójavító és Hajózási Kft.</div>
                     <div class="text-base col-span-2">Yacht Kikötő Nagymaros, Váci út 149.<br /><span
                             class="text-green-400">Cím</span>
                     </div>
@@ -716,7 +716,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">PLÉH-BOYS 2000 Bt.</div>
+                    <div class="col-span-2 text-xl">PLÉH-BOYS 2000 Bt.</div>
                     <div class="col-span-2">Karosszéria javítás, autómentés.</div>
                     <div class="text-base col-span-2">Nagymaros, Aranyos u. 2/a.<br /><span
                             class="text-green-400">Cím</span>
@@ -728,14 +728,14 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Kézi Autómosó és Kozmetika</div>
+                    <div class="col-span-2 text-xl">Kézi Autómosó és Kozmetika</div>
                     <div class="col-span-2">Maros-Wax Kft.</div>
                     <div class="text-base col-span-2">Váci út 96. (benzinkúttal szemben)<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">30-343-88-67<br /><span class="text-green-400">Telefon</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Zoller László autószerelő mester</div>
+                    <div class="col-span-2 text-xl">Zoller László autószerelő mester</div>
                     <div class="text-base col-span-2">Nagymaros, Villa sor 2.<br /><span
                             class="text-green-400">Cím</span></div>
                     <div class="text-base">27/354-420<br /><span class="text-green-400">Telefon</span></div>
@@ -746,7 +746,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Szűcs Géza autószerelő mester</div>
+                    <div class="col-span-2 text-xl">Szűcs Géza autószerelő mester</div>
                     <div class="col-span-2">
                         Autóvillamosság, autószerelés, futómű vizsgáztatás, gumiszerelés, diagnosztika
                     </div>
@@ -770,7 +770,7 @@
                     Fodrász – kozmetika
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Fodrászat Gabi</div>
+                    <div class="col-span-2 text-xl">Fodrászat Gabi</div>
                     <div class="col-span-2">Női, Férfi, Gyermek fodrászat</div>
                     <div class="col-span-2">Alimánné Fazekas Gabriella</div>
                     <div class="text-base col-span-2">Fő tér 3.<br /><span class="text-green-400">Cím</span></div>
@@ -782,7 +782,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Slim & Beauty Salon</div>
+                    <div class="col-span-2 text-xl">Slim & Beauty Salon</div>
                     <div class="col-span-2">
                         Szolgáltatások: kozmetika, alakformálás, IPL kezelések, szolárium, infrakabin.
                     </div>
@@ -792,7 +792,7 @@
                     <div class="text-base">(30) 996 4445<br /><span class="text-green-400">Telefon</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Szőke Szalon</div>
+                    <div class="col-span-2 text-xl">Szőke Szalon</div>
                     <div class="col-span-2">
                         Szolgáltatás megnevezése: Szolárium, szauna, fodrászat, kozmetika.
                     </div>
@@ -812,7 +812,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Szépség Kuckó</div>
+                    <div class="col-span-2 text-xl">Szépség Kuckó</div>
                     <div class="text-base col-span-2">Magyar u. 27.<br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="text-base">Szalai Tünde kozmetikus<br />
@@ -837,7 +837,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Cleo Studió</div>
+                    <div class="col-span-2 text-xl">Cleo Studió</div>
                     <div class="col-span-2">Szolgáltatás megnevezése: fodrászat, kozmetika, műköröm, manikűr</div>
                     <div class="text-base col-span-2">Tamási Áron u.2.<br /><span class="text-green-400">Cím</span>
                     </div>
@@ -872,7 +872,7 @@
                     Gyógyszertár
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Aranykorona Gyógyszertár</div>
+                    <div class="col-span-2 text-xl">Aranykorona Gyógyszertár</div>
                     <div class="text-base col-span-2">Fő tér 10.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">27/594-340<br /><span class="text-green-400">Telefon</span></div>
                     <div class="col-span-2">
@@ -890,7 +890,7 @@
                     Egyéb kiskereskedelem
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Hesztia Lakásvarázs</div>
+                    <div class="col-span-2 text-xl">Hesztia Lakásvarázs</div>
                     <div class="text-base col-span-2">Magyar utca 26.<br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="text-base">0670/ 376 8895<br /><span class="text-green-400">Telefon</span></div>
@@ -901,7 +901,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Karsán-Exkluzív Lakberendezési Üzlet</div>
+                    <div class="col-span-2 text-xl">Karsán-Exkluzív Lakberendezési Üzlet</div>
                     <div class="col-span-2">Lakberendezés, szőnyegtisztítás, Olasz matracok. Ruha, bőr szőrmetisztítás,
                         ékszerjavítás és készítés.</div>
                     <div class="text-base col-span-2">Váci út 18.<br /><span class="text-green-400">Cím</span></div>
@@ -912,7 +912,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Nemzeti Dohánybolt és Lottózó</div>
+                    <div class="col-span-2 text-xl">Nemzeti Dohánybolt és Lottózó</div>
                     <div class="col-span-2">
                         Újság, üdítő, alkohol, cigaretta, Lottó
                     </div>
@@ -927,7 +927,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">BIOBOLT</div>
+                    <div class="col-span-2 text-xl">BIOBOLT</div>
                     <div class="col-span-2">Reform élelmiszerek, öko tisztítószerek, vitaminok, gyógyteák, glutén
                         mentes készítmények.</div>
                     <div class="text-base col-span-2">Magyar utca 5.<br /><span class="text-green-400">Cím</span>
@@ -942,7 +942,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Horgászbolt</div>
+                    <div class="col-span-2 text-xl">Horgászbolt</div>
                     <div class="col-span-2">Csillag László</div>
                     <div class="col-span-2">csillag@laszlo61@gmail.com<br /><span class="text-green-400">Email</span>
                     </div>
@@ -953,7 +953,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Pesti és Lendvai Látszerész Bt.</div>
+                    <div class="col-span-2 text-xl">Pesti és Lendvai Látszerész Bt.</div>
                     <div class="col-span-2">
                         Szemüveg készítés, javítás, optikai cikkek árusítása.
                     </div>
@@ -969,7 +969,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Gyógynövény és Drogéria</div>
+                    <div class="col-span-2 text-xl">Gyógynövény és Drogéria</div>
                     <div class="col-span-2">
                         Gyógyhatású készítmények, gyógyteák, babaápolási termékek.
                     </div>
@@ -984,7 +984,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Lorac Gazdabolt</div>
+                    <div class="col-span-2 text-xl">Lorac Gazdabolt</div>
                     <div class="col-span-2">
                         Gazdabolt profiljába tartozó áruk mellett, Lottó árusítás.
                     </div>
@@ -998,7 +998,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Adi Papír-Írószer-Ajándék</div>
+                    <div class="col-span-2 text-xl">Adi Papír-Írószer-Ajándék</div>
                     <div class="col-span-2">
                         Hollósi Gézáné
                     </div>
@@ -1020,7 +1020,7 @@
                     Virág - Ajándék
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">La Fleur by Nora Virágbolt</div>
+                    <div class="col-span-2 text-xl">La Fleur by Nora Virágbolt</div>
                     <div class="text-base col-span-2">Dózsa György u. 1.<br /><span class="text-green-400">Cím</span>
                     </div>
                     <div class="text-base">0620/385-0835<br /><span class="text-green-400">Telefon</span></div>
@@ -1031,7 +1031,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Ildi Virág-Ajándék</div>
+                    <div class="col-span-2 text-xl">Ildi Virág-Ajándék</div>
                     <div class="col-span-2">Palásti Ildikó</div>
                     <div class="text-base col-span-2">Váci út 31.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">30-984-11-18<br /><span class="text-green-400">Telefon</span></div>
@@ -1052,7 +1052,7 @@
                     Sport – szabadidő
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">BTZ kajak kenu csónak kölcsönzés</div>
+                    <div class="col-span-2 text-xl">BTZ kajak kenu csónak kölcsönzés</div>
                     <div class="col-span-2">
                         Kajak-kenu-csónak kölcsönző a Dunakanyar szívében, Nagymaroson. Túrák szervezése a Duna, Ipoly
                         és Garam folyóra.
@@ -1061,7 +1061,7 @@
                             class="text-green-400">Honlap</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">aCélkecske Bringa és info Pont</div>
+                    <div class="col-span-2 text-xl">aCélkecske Bringa és info Pont</div>
                     <div class="col-span-2">Kerékpár kölcsönző, bringabolt és szerviz, pihenő és frissítő pont</div>
                     <div class="text-base col-span-2">2626, Nagymaros Fő tér 1. (Erdészet alsó szintje)<br /><span
                             class="text-green-400">Cím</span></div>
@@ -1074,7 +1074,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Napkereki Küküllő</div>
+                    <div class="col-span-2 text-xl">Napkereki Küküllő</div>
                     <div class="col-span-2">Kerékpár javítás, kiegészítők, alkatrészek árusítása.</div>
                     <div class="text-base col-span-2">Német u. 28.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">30-450-93-36<br /><span class="text-green-400">Telefon</span></div>
@@ -1088,7 +1088,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Paduc Horgászbolt</div>
+                    <div class="col-span-2 text-xl">Paduc Horgászbolt</div>
                     <div class="text-base col-span-2">Váci út 26.<br /><span class="text-green-400">Cím</span></div>
                     <div class="text-base">20-512-17-06<br /><span class="text-green-400">Telefon</span></div>
                     <div class="col-span-2">
@@ -1106,7 +1106,7 @@
                     Ruházat, textil
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Angol Használt ruha</div>
+                    <div class="col-span-2 text-xl">Angol Használt ruha</div>
                     <div class="col-span-2">
                         Használt női, férfi, gyermek ruha
                     </div>
@@ -1120,7 +1120,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Lakás Textil</div>
+                    <div class="col-span-2 text-xl">Lakás Textil</div>
                     <div class="col-span-2">Lakás textil, bútor, memóriamatracok, biomatracok, szőnyegtisztítás
                         ingyenes szállítással, paplanok, párnák.</div>
                     <div class="text-base col-span-2"> Váci út 18.<br /><span class="text-green-400">Cím</span></div>
@@ -1140,7 +1140,7 @@
                     Utazási irodák
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="col-span-2 text-xl font-bold">Dunakanyar Utazási Iroda</div>
+                    <div class="col-span-2 text-xl">Dunakanyar Utazási Iroda</div>
                     <div class="col-span-2">
                         Külföldi, belföldi nyaralások, körutazások, városlátogatások, síutak. Tengeri és folyami
                         hajóutak. Wellness ajánlatok, repülőjegy értékesítés, utasbiztosítás, Szép kártya elfogadóhely.
@@ -1167,7 +1167,7 @@
                     Ingatlan
                 </h2>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="text-xl font-bold">Dunakanyar Kincse Ingatlaniroda</div>
+                    <div class="text-xl">Dunakanyar Kincse Ingatlaniroda</div>
                     <div>
                         <img class="mx-auto max-h-24"
                             src="{{ asset('images/varosunk/Dunakanyar-kincse-ingatlan.jpeg') }}"
@@ -1186,7 +1186,7 @@
                     <div class="col-span-2">grecsgabor@gmail.com<br /><span class="text-green-400">Email</span></div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="text-xl font-bold">ILDIKÓ Ingatlan Iroda</div>
+                    <div class="text-xl">ILDIKÓ Ingatlan Iroda</div>
                     <div class="col-span-2">
                         Ingatlaneladás, értékbecslés, épületenergetika tanúsítvány készítés.
                     </div>
@@ -1200,7 +1200,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white p-4 rounded-xl">
-                    <div class="text-xl font-bold">G-Inveszt Bt.</div>
+                    <div class="text-xl">G-Inveszt Bt.</div>
                     <div class="col-span-2">
                         Értékbecslés, ingatlan közvetítés.
                     </div>

@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Hatósági csoport dokumentumai</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Hatósági csoport dokumentumai</h1>
         <h2 class="text-2xl mb-4 mt-6">
             Ellenőrzési terv
         </h2>

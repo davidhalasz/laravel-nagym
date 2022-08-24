@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Gondozási Központ</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Gondozási Központ</h1>
         <div class="grid grid-cols-2 gap-2 bg-slate-900 text-white mt-6 mb-4">
             <div class="mx-auto my-auto">
                 <img src="{{ asset('images/varosunk/P10111641-768x576.jpeg') }}" alt="logo" />

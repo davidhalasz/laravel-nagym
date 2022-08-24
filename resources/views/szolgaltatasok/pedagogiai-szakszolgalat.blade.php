@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Pest Megyei Pedagógiai Szakszolgálat Szobi Tagintézménye</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Pest Megyei Pedagógiai Szakszolgálat Szobi Tagintézménye</h1>
         <p class="my-4">
             „… minden gyermekben, akit ember hozott a világra… a nagyság csírája lappang”<br />
             (H. G. Wells)

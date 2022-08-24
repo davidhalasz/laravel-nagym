@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Városi Könyvtár és Művelődési Ház</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Városi Könyvtár és Művelődési Ház</h1>
         <p>
             <span class="font-bold">Nagymaroson a kulturális-közművelődési élet és a közgyűjtemény szervezése a Nagymaros
                 Városi Könyvtár és
@@ -54,7 +54,7 @@
             </div>
         </div>
 
-        <h3 class="text-xl pt-6 pb-2 font-bold">A könyvtár kölcsönzési ideje</h3>
+        <h3 class="text-xl pt-6 pb-2">A könyvtár kölcsönzési ideje</h3>
         <table class="table-auto border-collapse border border-slate-500 bg-slate-900 text-white mx-auto py-6">
             <tbody>
                 <tr>
@@ -80,7 +80,7 @@
                 </tr>
             </tbody>
         </table>
-        <h3 class="text-xl pt-6 pb-2 font-bold">Elérhetőség</h3>
+        <h3 class="text-xl pt-6 pb-2">Elérhetőség</h3>
         <div class="bg-slate-900 p-6 text-white">
             <div class="my-auto ml-10 col-span-2 grid grid-cols-3">
                 <p class="mb-2 text-center">Nagymaros Város Önkormányzata<br /><span class="text-green-400">Az intézmény
@@ -96,7 +96,7 @@
                 </p>
                 <div class="grid grid-cols-2 gap-2">
                     <div class="border border-slate-700 border-2 rounded-xl p-6">
-                        <p class="font-bold text-lg">Művelődési ház</p>
+                        <p class="text-lg">Művelődési ház</p>
                         <p class="mb-2">Nagymaros, Fő tér 14<br /><span class="text-green-400">Cím</span></p>
                         <p class="mb-2">27/354-243<br /><span class="text-green-400">Telefon</span></p>
                         <p class="mb-2">muvelodesihaz@nagymaros.hu<br /><span class="text-green-400">E-mail</span></p>
@@ -105,7 +105,7 @@
                         programkínálatot.
                     </div>
                     <div class="border border-slate-700 border-2 rounded-xl p-6">
-                        <p class="font-bold text-lg">Városi könyvtár</p>
+                        <p class="text-lg">Városi könyvtár</p>
                         <p class="mb-2">Nagymaros, Váci út 11<br /><span class="text-green-400">Cím</span></p>
                         <p class="mb-2">27/594-106<br /><span class="text-green-400">Telefon</span></p>
                         <p class="mb-2">konyvtar@nagymaros.hu<br /><span class="text-green-400">E-mail</span></p>

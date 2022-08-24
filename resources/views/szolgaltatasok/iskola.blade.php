@@ -1,13 +1,13 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Nagymarosi Kittenberger Kálmán Általános Iskola és Alapfokú Művészeti Iskola
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Nagymarosi Kittenberger Kálmán Általános Iskola és Alapfokú Művészeti Iskola
         </h1>
 
         <div class="grid grid-cols-2 text-white mt-6 mb-4 bg-slate-900">
             <div class="col-span-2">
                 <img id="iskolaImg" src="{{ asset('images/varosunk/dudasjozsefPanorama.jpeg') }}" alt="logo" />
             </div>
-            <div class="p-6 self-center col-span-2">
+            <div class="p-6 col-span-2">
                 <p>
                     A Nagymarosi Kittenberger Kálmán Általános Iskola és Alapfokú Művészeti Iskola 2015-ben ünnepelte
                     100. évfordulóját. Jelenleg 39 pedagógus és 7 fő technikai dolgozó végzi a nevelő-oktató munkával
@@ -18,7 +18,7 @@
         </div>
 
         <div class="grid grid-cols-2 gap-4 bg-slate-900 w-fit text-white p-6 rounded-xl">
-            <p class="font-bold text-lg mb-2 col-span-2">
+            <p class="text-lg mb-2 col-span-2">
                 Elérhetőségeink:
             </p>
             <p class="col-span-2">

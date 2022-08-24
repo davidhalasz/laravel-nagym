@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Helyi adók</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Helyi adók</h1>
         <div class="grid grid-cols-3 gap-4">
             <a href="https://nagymaros.hu/wp-content/uploads/2019/03/Ad%C3%B3napt%C3%A1r.pdf">
                 <div

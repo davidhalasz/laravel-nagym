@@ -18,7 +18,7 @@ module.exports = {
                 'black-text' : '#1d1d1b',
             },
             fontFamily: {
-                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+                sans: ['font-sans', ...defaultTheme.fontFamily.sans],
             },
             backgroundImage: {
                 'cover-image': "url('/images/varosunk/nagymaros_banner-scaled.jpeg')",

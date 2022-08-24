@@ -1,10 +1,10 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Posta</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Posta</h1>
 
         <div class="bg-slate-900 p-4">
             <div class="w-fit mx-auto text-white">
-                <p class="font-bold text-xl pb-6 text-center">Nagymarosi postahivatal</p>
+                <p class=" text-xl pb-6 text-center">Nagymarosi postahivatal</p>
                 <div class="flex flex-row">
                     <p class="p-6">
                         Meltsné Nyíri Mónika<br /><span class="text-green-500">Postavezető</span>
@@ -48,7 +48,7 @@
 
         <div class="bg-slate-900 p-4 mt-6">
             <div class="w-fit mx-auto text-white">
-                <p class="font-bold text-xl pb-6 text-center">Váci 1. sz. postahivatal</p>
+                <p class=" text-xl pb-6 text-center">Váci 1. sz. postahivatal</p>
                 <div class="flex flex-row">
                     <p class="p-6">
                         2600 Vác, Posta park 1.<br /><span class="text-green-500">Cím</span>

@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Katolikus</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Katolikus</h1>
 
         <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white mt-6 mb-4">
             <div class="mx-auto my-auto">
@@ -63,7 +63,7 @@
                     class="text-blue-500 font-bold hover:text-blue-400">Szentmisék és lelkigyakorlatok</span></a>
             felvételei.
         </p>
-        <h2 class="text-2xl font-bold mt-8 mb-4">
+        <h2 class="text-2xl mt-8 mb-4">
             A Szentmisék időpontjai:
         </h2>
         <p>
@@ -140,7 +140,7 @@
 
         <div class="grid grid-cols-2 gap-4 my-10">
             <div class="bg-slate-900 text-white rounded-xl p-4">
-                <h2 class="text-2xl font-bold mb-4">Elérhetőségeink</h2>
+                <h2 class="text-2xl mb-4">Elérhetőségeink</h2>
                 <p>Római Katolikus Plébánia</p>
                 <p>2626 Nagymaros, Szent Imre tér 2.<br/><span class="text-green-400">cim</span></p>
                 <p class="mt-2">27/354-221<br/><span class="text-green-400">telefon</span></p>  
@@ -150,7 +150,7 @@
             </div>
 
             <div class="bg-slate-900 text-white rounded-xl p-4">
-                <h2 class="text-2xl font-bold mb-4">
+                <h2 class="text-2xl mb-4">
                     Irodai órák
                 </h2>
                 <p>
@@ -166,7 +166,7 @@
                           </tr>
                           <tr>
                             <td class="border border-slate-700 p-4">Szerda</td>
-                            <td class="border border-slate-700 p-4">Szerda nincs irodai ügyintézés</td>
+                            <td class="border border-slate-700 p-4">nincs irodai ügyintézés</td>
                           </tr>
                           <tr>
                             <td class="border border-slate-700 p-4">Csütörtök</td>

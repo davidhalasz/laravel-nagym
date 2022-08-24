@@ -1,10 +1,10 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Civil szervezetek</h1>
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl py-6">Civil szervezetek</h1>
 
         <div class="mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-2xl">
                     Nagymarosi Iskoláért Alapítvány
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -38,7 +38,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymaros Város Fejlesztéséért Közhasznú Alapítvány
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -63,7 +63,7 @@
                         valamint 2014-ben Családbarát programsorozat megvalósításában az önkormányzattal.
                     </div>
                     <div class="pt-4">
-                        <div class="grid grid-cols-4 gap-4">
+                        <div class="grid grid-cols-3 gap-4">
                             <div class="grid grid-cols-3 gap-2 border border-white text-white p-4 rounded-xl">
                                 <div class="col-span-3">Nagymaros Város Fejlesztéséért Közhasznú Alapítvány<br /><span
                                         class="text-green-400">A szervezet neve</span></div>
@@ -83,7 +83,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Óvodáért Alapítvány
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -120,7 +120,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagycsaládosok Nagymarosi Egyesülete
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -159,7 +159,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Cédrus Művelődési és Sportegyesület
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -195,7 +195,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     950. Szent Gellért Püspök Cserkészcsapat
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -270,7 +270,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Die Blumen Táncegyüttes
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -310,7 +310,7 @@
 
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     “Máté” Állatvédelmi Közhasznú Alapítvány
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -447,7 +447,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Dunakanyar Fúvósegyüttes
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -527,7 +527,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Kerekegylet Közhasznú Egyesület
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -560,7 +560,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymaros Fiataljaiért Alapítvány NAFIA
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -615,7 +615,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymaros Városi Polgárőr Egyesület
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -669,7 +669,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Borbarátok Köre
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -730,7 +730,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Dunai Svábok Közössége
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -806,7 +806,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Férfikórus
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -880,7 +880,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Futball Club
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -943,7 +943,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Hátizsákosok Társasága (NaHáT)
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -986,7 +986,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Sportegyesület
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -1020,7 +1020,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Nagymarosi Önkéntes Tűzoltó Egyesület
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -1105,7 +1105,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Vándor és Vackor Lovasterápiás Alapítvány
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -1142,7 +1142,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Városi Nyugdíjasklub
                 </h2>
                 <span class="open-toggle" id="toggle-icon">
@@ -1188,7 +1188,7 @@
         </div>
         <div class="max-w-4xl mx-auto bg-slate-900 text-white p-6 rounded-2xl mb-4">
             <div class="flex justify-between">
-                <h2 class="text-2xl font-bold">
+                <h2 class="text-xl">
                     Wildenrosen Táncegyüttes
                 </h2>
                 <span class="open-toggle" id="toggle-icon">

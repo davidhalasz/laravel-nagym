@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Elektronikus ügyintézés</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Elektronikus ügyintézés</h1>
         <p>
             Az önkormányzati ASP rendszer keretében biztosított elektronikus ügyintézés segítése érdekében a központ
             által elkészített alábbi rövid, egyperces animációs kisfilmek egy-egy, a mindennapi életben is előforduló

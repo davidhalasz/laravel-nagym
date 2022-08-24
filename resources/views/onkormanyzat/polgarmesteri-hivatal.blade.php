@@ -1,6 +1,6 @@
 <x-varosunk>
-    <div class="max-w-4xl mx-auto mb-6 font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Polgármesteri Hivatal elérhetőségei</h1>
+    <div class="max-w-4xl mx-auto mb-6">
+        <h1 class="text-3xl py-6">Polgármesteri Hivatal elérhetőségei</h1>
         <div class="grid grid-cols-2 gap-4 bg-slate-900 text-white">
             <div class="p-6 my-auto">
                 <h2 class="text-xl mb-4">

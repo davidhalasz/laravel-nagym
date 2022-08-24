@@ -1,9 +1,9 @@
 <x-turizmus>
-    <div class="container mx-auto font-extrabold">
-        <h1 class="text-3xl py-6 font-bold">Kirándulás Nagymaroson</h1>
+    <div class="container mx-auto">
+        <h1 class="text-3xl py-6">Kirándulás Nagymaroson</h1>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto">
-            <h3 class="text-xl font-semibold mb-4">
+            <h3 class="text-2xl font-base mb-4">
                 Egynapos kirándulás Nagymaros szívében
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -55,7 +55,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Kihagyhatatlan programok Nagymaroson
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -146,7 +146,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 A katolikus templom időkapszulája
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -182,7 +182,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Nagymarosi Termelői Piac
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -229,7 +229,7 @@
 
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Gasztroélmények Nagymaroson
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -290,7 +290,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Kézműves, mindenmentes, isteni
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -320,7 +320,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Kirándulás Nagymaroson
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -334,7 +334,7 @@
                         fokozatosan emelkedik a lépcsősorral együtt a város fölé.
                     </p>
                     <div class='bg-slate-300 rounded-xl text-black p-4'>
-                        <h3 class="text-lg mb-2 font-semibold">
+                        <h3 class="text-lg mb-2">
                             Érdekesség!
                         </h3>
                         <p>
@@ -370,7 +370,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Nagymaros megközelítése
             </h3>
             <div class="grid grid-cols-3 gap-4">
@@ -407,7 +407,7 @@
         </div>
 
         <div class="bg-slate-900 text-white p-6 rounded-xl max-w-screen-lg mx-auto mt-8">
-            <h3 class="text-2xl mb-4 font-semibold text-white">
+            <h3 class="text-2xl mb-4 text-white">
                 Komppal Nagymarosra
             </h3>
             <div class="grid grid-cols-3 gap-4">
