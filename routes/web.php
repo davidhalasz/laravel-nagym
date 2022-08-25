@@ -1,6 +1,10 @@
 <?php
 use App\Http\Controllers\HirekController;
 use App\Http\Controllers\RendeletController;
+use App\Http\Controllers\HatarozatokController;
+use App\Http\Controllers\MeghivokController;
+use App\Http\Controllers\EloterjesztesController;
+use App\Http\Controllers\JegyzokonyvController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -148,6 +152,14 @@ Route::prefix('onkormanyzat')->group(function () {
     Route::get('/kepviselo-testulet-bizottsagai', function () {
         return view('/onkormanyzat/kepviselo-testulet-bizottsagai');
     })->name('kepviselo-testulet-bizottsagai');
+    Route::get('/hatarozatok',  [HatarozatokController::class, 'index'])->name('hatarozatok');
+    Route::get('/rendeletek',  [RendeletController::class, 'index'])->name('rendeletek');
+    Route::get('/meghivok-eloterjesztesek-jegyzokonyvek', function () {
+        return view('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek');
+    })->name('meghivok-eloterjesztesek-jegyzokonyvek');
+    Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/rendeletek',  [MeghivokController::class, 'index'])->name('onkormanyzat-meghivok');
+    Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/eloterjesztesek',  [EloterjesztesController::class, 'index'])->name('onkormanyzat-eloterjesztesek');
+    Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/jegyzokonyvek',  [JegyzokonyvController::class, 'index'])->name('onkormanyzat-jegyzokonyvek');
 });
 
 Route::middleware([
@@ -160,15 +172,27 @@ Route::middleware([
     })->name('dashboard');
 
     Route::get('/admin/news', function () {
-        return view('vendor/jetstream/hirek-form', [HirekController::class]);
+        return view('vendor/jetstream/hirek-form');
     })->name('hirek-form');
     Route::get('/admin/rendeletek', function () {
-        return view('vendor/jetstream/rendeletek', [RendeletController::class, 'index']);
+        return view('vendor/jetstream/rendeletek');
     })->name('rendeletek');
     Route::get('/admin/hatarozatok', function () {
-        return view('vendor/jetstream/hatarozatok', [RendeletController::class, 'index']);
+        return view('vendor/jetstream/hatarozatok');
     })->name('hatarozatok');
     Route::get('/admin/osszes-hatarozat', function () {
-        return view('vendor/jetstream/osszes-hatarozat', [RendeletController::class, 'index']);
+        return view('vendor/jetstream/osszes-hatarozat');
     })->name('osszes-hatarozat');
+    Route::get('/admin/eloterjesztes-hozzaadas', function () {
+        return view('vendor/jetstream/eloterjesztes-hozzaadas');
+    })->name('eloterjesztes-hozzaadas');
+    Route::get('/admin/osszes-eloterjesztes', function () {
+        return view('vendor/jetstream/osszes-eloterjesztes');
+    })->name('osszes-eloterjesztes');
+    Route::get('/admin/meghivok', function () {
+        return view('vendor/jetstream/meghivok');
+    })->name('meghivok');
+    Route::get('/admin/jegyzokonyvek', function () {
+        return view('vendor/jetstream/jegyzokonyvek');
+    })->name('jegyzokonyvek');
 });

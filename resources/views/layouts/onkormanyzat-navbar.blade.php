@@ -47,42 +47,42 @@
                                     <a href="/varosunk/koszonto"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Köszöntő</p>
+                                            <p class=font-medium text-gray-900">Köszöntő</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/tortenelem"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Történelem</p>
+                                            <p class=font-medium text-gray-900">Történelem</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/cimer"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Címer</p>
+                                            <p class=font-medium text-gray-900">Címer</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/testvervarosok"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Testvérvárosok</p>
+                                            <p class=font-medium text-gray-900">Testvérvárosok</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/kituntetettek"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Kitüntetettek</p>
+                                            <p class=font-medium text-gray-900">Kitüntetettek</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/civil-szervezetek"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Civil szervezetek</p>
+                                            <p class=font-medium text-gray-900">Civil szervezetek</p>
                                         </div>
                                     </a>
 
@@ -91,7 +91,7 @@
                                             class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                             <div class="ml-4">
 
-                                                <p class= font-medium text-gray-900 clear-none">
+                                                <p class=font-medium text-gray-900 clear-none">
                                                     Egyházak
                                                     <span class=" ml-2 float-right my-auto">
                                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
@@ -112,7 +112,7 @@
                                     <a href="/varosunk/cegjegyzek"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Cégjegyzék</p>
+                                            <p class=font-medium text-gray-900">Cégjegyzék</p>
                                         </div>
                                     </a>
                                 </div>
@@ -128,14 +128,14 @@
                                     <a href="/varosunk/katolikus"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Katolikus</p>
+                                            <p class=font-medium text-gray-900">Katolikus</p>
                                         </div>
                                     </a>
 
                                     <a href="/varosunk/reformatus"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Reformatus</p>
+                                            <p class=font-medium text-gray-900">Reformatus</p>
                                         </div>
                                     </a>
                                 </div>
@@ -166,42 +166,42 @@
                                     <a href="/szolgaltatasok/egeszsegugy"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Egészségügy</p>
+                                            <p class=font-medium text-gray-900">Egészségügy</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/posta"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Posta</p>
+                                            <p class=font-medium text-gray-900">Posta</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/rendorseg"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Rendőrség</p>
+                                            <p class=font-medium text-gray-900">Rendőrség</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/ovoda"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Óvoda</p>
+                                            <p class=font-medium text-gray-900">Óvoda</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/iskola"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Iskola</p>
+                                            <p class=font-medium text-gray-900">Iskola</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/bolcsode"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Család- és Gyermekjóléti
+                                            <p class=font-medium text-gray-900">Család- és Gyermekjóléti
                                                 Szolgálat, Bölcsőde</p>
                                         </div>
                                     </a>
@@ -209,21 +209,21 @@
                                     <a href="/szolgaltatasok/allatorvos"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Állatorvos</p>
+                                            <p class=font-medium text-gray-900">Állatorvos</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/gondozasi-kozpont"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Gondozási Központ</p>
+                                            <p class=font-medium text-gray-900">Gondozási Központ</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/konyvtar"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Városi Könyvtár és
+                                            <p class=font-medium text-gray-900">Városi Könyvtár és
                                                 Művelődési Ház</p>
                                         </div>
                                     </a>
@@ -231,14 +231,14 @@
                                     <a href="/szolgaltatasok/kommunalis-szolgaltatasok"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Hulladékkezelés</p>
+                                            <p class=font-medium text-gray-900">Hulladékkezelés</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/szobi-jarasi-hivatal"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Szobi Járási Hivatal
+                                            <p class=font-medium text-gray-900">Szobi Járási Hivatal
                                                 (Okmányiroda)</p>
                                         </div>
                                     </a>
@@ -246,14 +246,14 @@
                                     <a href="/szolgaltatasok/matyas-etkezde"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Mátyás Étkezde</p>
+                                            <p class=font-medium text-gray-900">Mátyás Étkezde</p>
                                         </div>
                                     </a>
 
                                     <a href="/szolgaltatasok/pest-megyei-pedagogiai-szakszolgalat"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Pest Megyei Pedagógiai
+                                            <p class=font-medium text-gray-900">Pest Megyei Pedagógiai
                                                 Szakszolgálat Szobi Tagintézménye</p>
                                         </div>
                                     </a>
@@ -263,7 +263,7 @@
                     </div>
 
 
-                    <div x-data="{ open: false, isOpen: false, isOpenKepv: false }" class="relative">
+                    <div x-data="{ open: false, isOpen: false, isOpenKepv: false, isOpenKepvDont: false }" class="relative">
                         <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                         <button @click="open = ! open" type="button"
                             class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500"
@@ -287,46 +287,71 @@
                                         <a href="#"
                                             class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                             <div class="ml-4 float-left">
-                                                <p class= font-medium text-gray-900 clear-none whitespace-nowrap align-middle">
+                                                <p class=font-medium text-gray-900 clear-none whitespace-nowrap
+                                                    align-middle">
                                                     Polgármesteri Hivatal
                                                     <span class=" ml-2 b-0 inline-block align-middle">
-                                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
-                                                          viewBox="0 0 20 20" fill="currentColor">
-                                                          <path fill-rule="evenodd"
-                                                              d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-                                                              clip-rule="evenodd" />
-                                                          <path fill-rule="evenodd"
-                                                              d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-                                                              clip-rule="evenodd" />
-                                                      </svg>
-                                                  </span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
                                                 </p>
-                                                
+
                                             </div>
                                         </a>
                                     </div>
                                     <div @click="isOpenKepv = ! isOpenKepv">
-                                      <a href="#"
-                                          class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
-                                          <div class="ml-4 float-left">
-                                              <p class= font-medium text-gray-900 clear-none whitespace-nowrap align-middle">
-                                                Képviselő-testület
-                                                  <span class=" ml-2 b-0 inline-block align-middle">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
-                                                        viewBox="0 0 20 20" fill="currentColor">
-                                                        <path fill-rule="evenodd"
-                                                            d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-                                                            clip-rule="evenodd" />
-                                                        <path fill-rule="evenodd"
-                                                            d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
-                                                            clip-rule="evenodd" />
-                                                    </svg>
-                                                </span>
-                                              </p>
-                                              
-                                          </div>
-                                      </a>
-                                  </div>
+                                        <a href="#"
+                                            class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                            <div class="ml-4 float-left">
+                                                <p class=font-medium text-gray-900 clear-none whitespace-nowrap
+                                                    align-middle">
+                                                    Képviselő-testület
+                                                    <span class=" ml-2 b-0 inline-block align-middle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                </p>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div @click="isOpenKepvDont = ! isOpenKepvDont">
+                                        <a href="#"
+                                            class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                            <div class="ml-4 float-left">
+                                                <p class=font-medium text-gray-900 clear-none whitespace-nowrap
+                                                    align-middle">
+                                                    Képviselő-testület döntései
+                                                    <span class=" ml-2 b-0 inline-block align-middle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                </p>
+
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -338,43 +363,44 @@
                                     <a href="/onkormanyzat/ugyfelfogadas"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Ügyfélfogadás</p>
+                                            <p class=font-medium text-gray-900">Ügyfélfogadás</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/polgarmesteri-hivatal"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Elérhetőség</p>
+                                            <p class=font-medium text-gray-900">Elérhetőség</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/szervezeti-felepites"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Szervezeti felépítés</p>
+                                            <p class=font-medium text-gray-900">Szervezeti felépítés</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/dokumentumtar"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Dokumentumtár</p>
+                                            <p class=font-medium text-gray-900">Dokumentumtár</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/helyi-adok"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Helyi adók</p>
+                                            <p class=font-medium text-gray-900">Helyi adók</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/nagymaros-varos-oenkormanyzat-polgarmesteri-hivatalanak-minsegpolitikaja"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Nagymarosi Polgármesteri Hivatal minőségpolitikája</p>
+                                            <p class=font-medium text-gray-900">Nagymarosi Polgármesteri Hivatal
+                                                minőségpolitikája</p>
                                         </div>
                                     </a>
                                     <a href="/onkormanyzat/elektronikus-ugyintezes"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4">
-                                            <p class= font-medium text-gray-900">Elektronikus ügyintézés</p>
+                                            <p class=font-medium text-gray-900">Elektronikus ügyintézés</p>
                                         </div>
                                     </a>
                                 </div>
@@ -388,14 +414,39 @@
                                     <a href="/onkormanyzat/kepviselo-testulet-tagjai"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4 whitespace-nowrap">
-                                            <p class= font-medium text-gray-900">Képviselő-testület tagjai</p>
+                                            <p class=font-medium text-gray-900">Képviselő-testület tagjai</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div x-show="isOpenKepvDont" @click.outside="isOpenKepvDont = false"
+                            class="absolute z-9  mt-4 transform px-2 w-fit max-w-md sm:px-0 lg:ml-80">
+                            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                    <a href="/onkormanyzat/hatarozatok"
+                                        class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                        <div class="ml-4 whitespace-nowrap">
+                                            <p class=font-medium text-gray-900">Határozatok</p>
+                                        </div>
+                                    </a>
+                                    <a href="/onkormanyzat/rendeletek"
+                                        class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                        <div class="ml-4 whitespace-nowrap">
+                                            <p class=font-medium text-gray-900">Rendeletek</p>
+                                        </div>
+                                    </a>
+                                    <a href="{{ route('meghivok-eloterjesztesek-jegyzokonyvek') }}"
+                                        class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                        <div class="ml-4 whitespace-nowrap">
+                                            <p class=font-medium text-gray-900">Ülések meghívói, előterjesztései, jegyzőkönyvei</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <a href="#"
                         class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
@@ -502,19 +553,19 @@
                 </div>
                 <div class="py-6 px-5 space-y-6">
                     <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Pricing
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Pricing
                         </a>
 
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Docs </a>
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Docs </a>
 
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Help Center
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Help Center
                         </a>
 
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Guides </a>
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Guides </a>
 
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Events </a>
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Events </a>
 
-                        <a href="#" class= font-medium text-gray-900 hover:text-gray-700"> Security
+                        <a href="#" class=font-medium text-gray-900 hover:text-gray-700"> Security
                         </a>
                     </div>
                     <div>

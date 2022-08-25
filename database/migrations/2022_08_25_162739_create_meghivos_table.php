@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('rendeleteks', function (Blueprint $table) {
+        Schema::create('meghivos', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
             $table->text('filename');
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rendeleteks');
+        Schema::dropIfExists('meghivos');
     }
 };

@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Rendelet;
+use App\Models\Hatarozat;
+use App\Models\HatarozatCim;
 use Illuminate\Http\Request;
 
-class RendeletController extends Controller
+class HatarozatokController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,9 @@ class RendeletController extends Controller
      */
     public function index()
     {
-        $rendeletek = Rendelet::latest()->get();
-        return view("onkormanyzat.rendeletek", compact('rendeletek'));
+        $hatarozatCimek = HatarozatCim::latest()->get();
+        $hatarozatok = Hatarozat::latest()->get();
+        return view("onkormanyzat.hatarozatok", compact(['hatarozatok', 'hatarozatCimek']));
     }
 
     /**

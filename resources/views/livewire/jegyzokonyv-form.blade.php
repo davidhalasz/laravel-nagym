@@ -1,7 +1,7 @@
 <form wire:submit.prevent="submit">
     <div class="grid grid-cols-3 gap-4">
         <div class="col-span-2 form-group mb-6 text-black">
-            <label for="title" class="block mb-2 text-sm font-medium text-black">Rendelet neve</label>
+            <label for="title" class="block mb-2 text-sm font-medium text-black">Jegyzőkönyv neve</label>
             <input type="text" id="title" wire:model="title"
                 class="bg-gray-100 border border-gray-300 text-base 
             rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">

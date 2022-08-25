@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Livewire;
-use App\Models\HatarozatCim;
-use App\Models\Hatarozat;
+use App\Models\EloterjesztesCim;
+use App\Models\Eloterjesztes;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
-class HatarozatForm extends Component
+class EloterjesztesForm extends Component
 {
     use WithFileUploads;
 
@@ -22,7 +22,7 @@ class HatarozatForm extends Component
         $i = $i + 1;
         $this->i = $i;
         array_push($this->inputs ,$i);
-    }
+    } 
  
     public function remove($i)
     {
@@ -53,25 +53,25 @@ class HatarozatForm extends Component
         ]);
 
 
-        $insertTitle = HatarozatCim::create([
+        $insertTitle = EloterjesztesCim::create([
             'title' => $this->title,
         ]); 
 
         foreach ($this->filename as $key => $value) {
             $originalFileName =$this->filepath[$key]->getClientOriginalName();
             if(!empty($this->filepath[$key])) {
-                $this->filepath[$key]->storeAs('public/hatarozatok', $originalFileName);
+                $this->filepath[$key]->storeAs('public/eloterjesztesek', $originalFileName);
             }
-            Hatarozat::create(['title_id' => $insertTitle->id, 'filename' => $this->filename[$key], 'filepath' => $originalFileName]);
+            Eloterjesztes::create(['title_id' => $insertTitle->id, 'filename' => $this->filename[$key], 'filepath' => $originalFileName]);
         }
 
         $this->inputs = [];
         $this->resetInputFields();
-        session()->flash('message', 'Határozat sikeresen hozzáadva.');
+        session()->flash('message', 'Előterjesztés sikeresen hozzáadva.');
     }
 
     public function render()
     {
-        return view('livewire.hatarozat-form');
+        return view('livewire.eloterjesztes-form');
     }
 }

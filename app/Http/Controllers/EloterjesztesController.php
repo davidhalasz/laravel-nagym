@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Rendelet;
+use App\Models\Eloterjesztes;
+use App\Models\EloterjesztesCim;
 use Illuminate\Http\Request;
 
-class RendeletController extends Controller
+class EloterjesztesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,9 @@ class RendeletController extends Controller
      */
     public function index()
     {
-        $rendeletek = Rendelet::latest()->get();
-        return view("onkormanyzat.rendeletek", compact('rendeletek'));
+        $cimek = EloterjesztesCim::latest()->get();
+        $eloterjesztesek = Eloterjesztes::latest()->get();
+        return view("onkormanyzat.eloterjesztesek", compact(['eloterjesztesek', 'cimek']));
     }
 
     /**

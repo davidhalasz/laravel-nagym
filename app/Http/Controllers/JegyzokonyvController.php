@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Rendelet;
+use App\Models\Jegyzokonyv;
 use Illuminate\Http\Request;
 
-class RendeletController extends Controller
+class JegyzokonyvController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,8 @@ class RendeletController extends Controller
      */
     public function index()
     {
-        $rendeletek = Rendelet::latest()->get();
-        return view("onkormanyzat.rendeletek", compact('rendeletek'));
+        $jegyzokonyvek = Jegyzokonyv::latest()->get();
+        return view("onkormanyzat.jegyzokonyvek", compact('jegyzokonyvek'));
     }
 
     /**

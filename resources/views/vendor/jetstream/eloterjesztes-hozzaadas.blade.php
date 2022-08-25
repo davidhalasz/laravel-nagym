@@ -8,9 +8,9 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <h1 class="p-6 text-center text-2xl">Határozatok hozzáadása</h1>
+                <h1 class="p-6 text-center text-2xl">Előterjesztések hozzáadása</h1>
                 <div class="card-body p-6">
-                    @livewire('hatarozat-form')
+                    @livewire('eloterjesztes-form')
                 </div>
                 @livewireScripts
             </div>

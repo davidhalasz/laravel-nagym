@@ -1,6 +1,6 @@
 <div>
     @if (session()->has('message'))
-        <div class="alert alert-success bg-emerald-400 border border-emerald-800 text-white 
+        <div class="alert alert-success bg-emerald-400 text-white 
         rounded-lg focus:ring-blue-500 focus:border-blue-500 block mx-auto p-2.5 w-1/2 text-center font-bold mb-6">
             {{ session('message') }}
         </div>
@@ -18,7 +18,7 @@
         <div class="grid grid-cols-4 gap-2 add-input mb-4">
 
             <div class="form-group col-span-2">
-                <input type="text" placeholder="Határozat neve" wire:model="filename.0" class="bg-gray-100 border border-gray-300 text-base 
+                <input type="text" placeholder="Előterjesztés neve" wire:model="filename.0" class="bg-gray-100 border border-gray-300 text-base 
                 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full">
                 @error('filename.0')
                     <br /><span class="text-red-800 error">{{ $message }}</span>
@@ -40,8 +40,9 @@
         @foreach ($inputs as $key => $value)
             <div class="grid grid-cols-4 gap-2 add-input mb-4">
                 <div class="form-group col-span-2">
-                    <input type="text" placeholder="Hatarozat neve"
-                        wire:model="filename.{{ $value }}" class="w-full">
+                    <input type="text" placeholder="Előterjesztés neve"
+                        wire:model="filename.{{ $value }}" class="bg-gray-100 border border-gray-300 text-base 
+                        rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full">
                     @error('filename.' . $value)
                         <br /><span class="text-red-800 error">{{ $message }}</span>
                     @enderror
