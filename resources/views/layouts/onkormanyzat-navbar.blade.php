@@ -263,7 +263,7 @@
                     </div>
 
 
-                    <div x-data="{ open: false, isOpen: false, isOpenKepv: false, isOpenKepvDont: false }" class="relative">
+                    <div x-data="{ open: false, isOpen: false, isOpenKepv: false, isOpenKepvDont: false, isOpenKepvBiz: false }" class="relative">
                         <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                         <button @click="open = ! open" type="button"
                             class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500"
@@ -336,6 +336,29 @@
                                                 <p class=font-medium text-gray-900 clear-none whitespace-nowrap
                                                     align-middle">
                                                     Képviselő-testület döntései
+                                                    <span class=" ml-2 b-0 inline-block align-middle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                </p>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div @click="isOpenKepvBiz = ! isOpenKepvBiz">
+                                        <a href="#"
+                                            class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                            <div class="ml-4 float-left">
+                                                <p class=font-medium text-gray-900 clear-none whitespace-nowrap
+                                                    align-middle">
+                                                    Képviselő-testület bizottságainak jegyzőkönyvei
                                                     <span class=" ml-2 b-0 inline-block align-middle">
                                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
                                                             viewBox="0 0 20 20" fill="currentColor">
@@ -439,9 +462,26 @@
                                     <a href="{{ route('meghivok-eloterjesztesek-jegyzokonyvek') }}"
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
                                         <div class="ml-4 whitespace-nowrap">
-                                            <p class=font-medium text-gray-900">Ülések meghívói, előterjesztései, jegyzőkönyvei</p>
+                                            <p class=font-medium text-gray-900">Ülések meghívói, előterjesztései,
+                                                jegyzőkönyvei</p>
                                         </div>
                                     </a>
+                                    <a href="{{ route('tarsadalmi-velemenyezes') }}"
+                                        class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100">
+                                        <div class="ml-4 whitespace-nowrap">
+                                            <p class=font-medium text-gray-900">Társadalmi véleményezések</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div x-show="isOpenKepvBiz" @click.outside="isOpenKepvBiz = false"
+                            class="absolute z-9  mt-4 transform px-2 w-fit max-w-md sm:px-0 lg:ml-80">
+                            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+
+                                    @livewire('show-bizottsagi-jegyzokonyv-years')
+
                                 </div>
                             </div>
                         </div>

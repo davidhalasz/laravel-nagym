@@ -5,6 +5,8 @@ use App\Http\Controllers\HatarozatokController;
 use App\Http\Controllers\MeghivokController;
 use App\Http\Controllers\EloterjesztesController;
 use App\Http\Controllers\JegyzokonyvController;
+use App\Http\Controllers\VelemenyezesController;
+use App\Http\Controllers\BizottsagiJegyzokonyvController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -160,6 +162,8 @@ Route::prefix('onkormanyzat')->group(function () {
     Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/rendeletek',  [MeghivokController::class, 'index'])->name('onkormanyzat-meghivok');
     Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/eloterjesztesek',  [EloterjesztesController::class, 'index'])->name('onkormanyzat-eloterjesztesek');
     Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/jegyzokonyvek',  [JegyzokonyvController::class, 'index'])->name('onkormanyzat-jegyzokonyvek');
+    Route::get('/tarsadalmi-velemenyezes',  [VelemenyezesController::class, 'index'])->name('tarsadalmi-velemenyezes');
+    Route::get('/bizottsagi-jegyzokonyvek/{year}',  [BizottsagiJegyzokonyvController::class, 'index'])->name('bizottsagi-jegyzokonyvek');
 });
 
 Route::middleware([
@@ -195,4 +199,13 @@ Route::middleware([
     Route::get('/admin/jegyzokonyvek', function () {
         return view('vendor/jetstream/jegyzokonyvek');
     })->name('jegyzokonyvek');
+    Route::get('/admin/tarsadalmi-velemenyezes-hozzaadasa', function () {
+        return view('vendor/jetstream/tarsadalmi-velemenyezes-hozzaadasa');
+    })->name('tarsadalmi-velemenyezes-hozzaadasa');
+    Route::get('/admin/osszes-velemenyezes', function () {
+        return view('vendor/jetstream/osszes-velemenyezes');
+    })->name('osszes-velemenyezes');
+    Route::get('/admin/bizottsagi-jegyzokonyv-hozzaadas', function () {
+        return view('vendor/jetstream/bizottsagi-jegyzokonyv-hozzaadas');
+    })->name('bizottsagi-jegyzokonyv-hozzaadas');
 });
