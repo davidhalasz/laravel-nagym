@@ -7,15 +7,29 @@
     @endif
 
     <form>
-        <div class="form-group mb-6 text-black">
-            <input type="text" placeholder="Cím megadása" wire:model="title" class="bg-gray-100 border border-gray-300 text-base 
-            rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-1/2">
-            @error('title')
-                <br /><span class="text-red-800 error">{{ $message }}</span>
-            @enderror
-        </div>
+        
 
         <div class="grid grid-cols-4 gap-2 add-input mb-4">
+            <div class="col-span-2 form-group mb-6 text-black">
+                <label for="year" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Cím</label>
+                <input type="text" placeholder="Cím megadása" wire:model="title" class="bg-gray-100 border border-gray-300 text-base 
+                rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                @error('title')
+                    <br /><span class="text-red-800 error">{{ $message }}</span>
+                @enderror
+            </div>
+            <div class="mb-6">
+                <label for="year" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Válassz
+                    évet</label>
+                <select id="year"
+                    class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    wire:model="year">
+                    <option selected>Válassz évet</option>
+                    @foreach (range($currentYear, 2019, -1) as $y)
+                        <option value="{{ $y }}">{{ $y }}</option>
+                    @endforeach
+                </select>
+            </div>
 
             <div class="form-group col-span-2">
                 <input type="text" placeholder="Határozat neve" wire:model="filename.0" class="bg-gray-100 border border-gray-300 text-base 

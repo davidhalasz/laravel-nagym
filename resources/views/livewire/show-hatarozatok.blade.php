@@ -11,7 +11,7 @@
                     @if ($hatarozat->title_id == $cim->id)
                         <tr>
                             <td class="border-b border-slate-300 py-4 px-6">
-                                <a class="text-blue-500 hover:text-blue-700" href="{{ url('/storage/hatarozatok/'.$hatarozat->filepath) }}">
+                                <a class="text-blue-500 hover:text-blue-700" href="{{ url('/storage/hatarozatok/'. $hatarozat->year.'/'.$hatarozat->filepath) }}">
                                     {{ $hatarozat->filename }}
                                 </a> 
                             </td>

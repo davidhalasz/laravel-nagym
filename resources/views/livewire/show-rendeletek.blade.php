@@ -9,7 +9,7 @@
         <tr>
             <td class="border-b border-slate-300 py-4 px-6 ">{{ $rendelet->title }}</td>
             <td class="border-b border-slate-300 py-4 px-6">
-                <a class="text-blue-500 hover:text-blue-700" href="{{ url('/storage/rendeletek/'.$rendelet->filename) }}">
+                <a class="text-blue-500 hover:text-blue-700" href="{{ url('/storage/rendeletek/'. $rendelet->year.'/'.$rendelet->filename) }}">
                     {{ $rendelet->filename }}
                 </a>
             </td>

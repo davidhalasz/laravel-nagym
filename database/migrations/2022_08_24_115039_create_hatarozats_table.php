@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('title_id');
             $table->text('filename');
             $table->text('filepath');
+            $table->integer('year');
             $table->timestamps();
         });
     }

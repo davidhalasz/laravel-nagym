@@ -208,4 +208,10 @@ Route::middleware([
     Route::get('/admin/bizottsagi-jegyzokonyv-hozzaadas', function () {
         return view('vendor/jetstream/bizottsagi-jegyzokonyv-hozzaadas');
     })->name('bizottsagi-jegyzokonyv-hozzaadas');
+    Route::get('/admin/esemenyfeltoltes', function () {
+        return view('vendor/jetstream/esemenyfeltoltes');
+    })->name('esemenyfeltoltes');
+    Route::get('/admin/fejlesztesek-palyazatok-feltoltese', function () {
+        return view('vendor/jetstream/fejlesztesek-palyazatok-feltoltese');
+    })->name('fejlesztesek-palyazatok-feltoltese');
 });

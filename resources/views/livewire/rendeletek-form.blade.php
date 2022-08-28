@@ -16,6 +16,18 @@
                 <span class="file-custom"></span>
               </label>
         </div>
+        <div class="mb-4">
+            <label for="year" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Válassz
+                évet</label>
+            <select id="year"
+                class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                wire:model="year">
+                <option selected>Válassz évet</option>
+                @foreach (range($currentYear, 2019, -1) as $y)
+                    <option value="{{ $y }}">{{ $y }}</option>
+                @endforeach
+            </select>
+        </div>
     </div>
 
     <div class="w-full">

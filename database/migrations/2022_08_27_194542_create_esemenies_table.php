@@ -13,11 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('rendelet', function (Blueprint $table) {
+        Schema::create('esemenies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
-            $table->text('filename');
-            $table->integer('year');
+            $table->text('startDate');
+            $table->text('endDate');
+            $table->text('filepath');
             $table->timestamps();
         });
     }
@@ -29,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rendelet');
+        Schema::dropIfExists('esemenies');
     }
 };

@@ -11,6 +11,7 @@ class HatarozatForm extends Component
     use WithFileUploads;
 
     public $title;
+    public $year;
     public $title_id;
     public $filename;
     public $filepath;
@@ -43,9 +44,11 @@ class HatarozatForm extends Component
             'filepath.0' => 'required|mimes:pdf,doc,docx,jpg,png,jpeg',
             'filename.*' => 'required',
             'filepath.*' => 'required|mimes:pdf,doc,docx,jpg,png,jpeg',
+            'year' => 'required',
         ],
         [
             'title.required' => 'Cím mező megadása kötelező',
+            'year.required' => 'Évszám kiválasztása kötelező',
             'filename.0.required' => 'Fájlnév mező megadása kötelező',
             'filepath.0.required' => 'Fájl kiválasztása kötelező',
             'filename.*.required' => 'Fájlnév mező megadása kötelező',
@@ -60,9 +63,14 @@ class HatarozatForm extends Component
         foreach ($this->filename as $key => $value) {
             $originalFileName =$this->filepath[$key]->getClientOriginalName();
             if(!empty($this->filepath[$key])) {
-                $this->filepath[$key]->storeAs('public/hatarozatok', $originalFileName);
+                $this->filepath[$key]->storeAs('public/hatarozatok/'.$this->year, $originalFileName);
             }
-            Hatarozat::create(['title_id' => $insertTitle->id, 'filename' => $this->filename[$key], 'filepath' => $originalFileName]);
+            Hatarozat::create([
+                'title_id' => $insertTitle->id, 
+                'year' => $this->year, 
+                'filename' => $this->filename[$key], 
+                'filepath' => $originalFileName
+            ]);
         }
 
         $this->inputs = [];
@@ -72,6 +80,7 @@ class HatarozatForm extends Component
 
     public function render()
     {
+        $this->currentYear = now()->year;
         return view('livewire.hatarozat-form');
     }
 }

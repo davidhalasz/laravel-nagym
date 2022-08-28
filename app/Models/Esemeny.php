@@ -5,11 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Hatarozat extends Model
+class Esemeny extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'title_id', 'filename', 'filepath', 'year',
+        'title', 'filepath',
     ];
+    protected $casts = [
+        'startDate' => 'date:Y-m-d',
+        'endDate' => 'date:Y-m-d',
+    ];
+    
 }
- 

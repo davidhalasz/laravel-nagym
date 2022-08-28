@@ -14,6 +14,6 @@ class Rendelet extends Model
      */
     protected $table = 'rendelet';
     protected $fillable = [
-        'title', 'filename',
+        'title', 'filename', 'year',
     ];
 }

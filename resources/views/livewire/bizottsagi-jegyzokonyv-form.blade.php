@@ -37,8 +37,8 @@
                 <select id="year"
                     class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     wire:model="year">
-                    <option value="{{ $currentYear }}" selected>{{ $currentYear }}</option>
-                    @foreach (range($currentYear - 1, 2019, -1) as $y)
+                    <option selected>Válassz évet</option>
+                    @foreach (range($currentYear, 2019, -1) as $y)
                         <option value="{{ $y }}">{{ $y }}</option>
                     @endforeach
                 </select>
