@@ -35,15 +35,13 @@
                     <a href="/turizmus/sport-szabadido"
                         class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Sport, szabadidő </a>
-
-
                     <a href="/turizmus/programlehetosegek"
                         class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Programlehetőségek </a>
                     <a href="/turizmus/muveszet"
                         class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Művészet </a>
-                    <a href="/turizmus/esemenynaptar"
+                    <a href="{{route('turizmus-esemenynaptar')}}"
                         class="text-gray-200 group bg-slate-900 rounded-md inline-flex items-center font-medium hover:text-green-500">
                         Eseménynaptár </a>
                     <a href="/turizmus/terkepek"

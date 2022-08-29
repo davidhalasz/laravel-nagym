@@ -9,11 +9,6 @@ class Esemeny extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'title', 'filepath',
+        'title', 'filepath', 'startDate', 'endDate'
     ];
-    protected $casts = [
-        'startDate' => 'date:Y-m-d',
-        'endDate' => 'date:Y-m-d',
-    ];
-    
 }

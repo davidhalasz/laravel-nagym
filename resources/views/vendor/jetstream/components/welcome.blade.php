@@ -255,7 +255,7 @@
                 </div>
             </a>
 
-            <a href="{{ route('osszes-hatarozat') }}">
+            <a href="{{ route('osszes-bizottsagi-jegyzokonyv') }}">
                 <div class="mt-3 flex items-center text-md font-semibold text-indigo-700">
                     <div>Összes jegyzőkönyv</div>
 
@@ -297,7 +297,7 @@
                 </div>
             </a>
 
-            <a href="{{ route('osszes-velemenyezes') }}">
+            <a href="{{ route('osszes-esemeny') }}">
                 <div class="mt-3 flex items-center text-md font-semibold text-indigo-700">
                     <div>Összes esemény</div>
 
@@ -322,14 +322,14 @@
                 </path>
             </svg>
             <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a
-                    href="https://laravel.com/docs">Fejlesztesek palyazatok</a></div>
+                    href="https://laravel.com/docs">Fejlesztések pályázatok</a></div>
         </div>
 
         <div class="ml-12 font-semibold">
 
             <a href="{{ route('fejlesztesek-palyazatok-feltoltese') }}">
                 <div class="mt-2 flex items-center text-md font-semibold text-indigo-700">
-                    <div>fejlesztesek feltöltése</div>
+                    <div>Fejlesztesek feltöltése</div>
                     <div class="ml-1 text-indigo-500">
                         <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
                             <path fill-rule="evenodd"

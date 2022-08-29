@@ -27,8 +27,8 @@ class ShowHatarozatok extends Component
     public function delete($id)
     {
         $hatarozat=Hatarozat::findOrFail($id);
-        if(Storage::exists('public/hatarozatok/'.$hatarozat->filepath)){
-            Storage::delete('public/hatarozatok/'.$hatarozat->filepath);
+        if(Storage::exists('public/hatarozatok/'.$hatarozat->year.'/'.$hatarozat->filepath)){
+            Storage::delete('public/hatarozatok/'.$hatarozat->year.'/'.$hatarozat->filepath);
             $hatarozat->delete();
             $this->removeCimById($hatarozat->title_id);
         } else{

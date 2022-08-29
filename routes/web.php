@@ -6,6 +6,7 @@ use App\Http\Controllers\MeghivokController;
 use App\Http\Controllers\EloterjesztesController;
 use App\Http\Controllers\JegyzokonyvController;
 use App\Http\Controllers\VelemenyezesController;
+use App\Http\Controllers\EsemenyController;
 use App\Http\Controllers\BizottsagiJegyzokonyvController;
 use Illuminate\Support\Facades\Route;
 
@@ -79,6 +80,7 @@ Route::prefix('varosunk')->group(function () {
     Route::get('/cegjegyzek', function () {
         return view('varosunk/cegjegyzek');
     })->name('cegjegyzek');
+    Route::get('/esemenynaptar',  [EsemenyController::class, 'index'])->name('turizmus-esemenynaptar');
 });
 
 Route::prefix('szolgaltatasok')->group(function () {
@@ -164,6 +166,7 @@ Route::prefix('onkormanyzat')->group(function () {
     Route::get('/onkormanyzat/meghivok-eloterjesztesek-jegyzokonyvek/jegyzokonyvek',  [JegyzokonyvController::class, 'index'])->name('onkormanyzat-jegyzokonyvek');
     Route::get('/tarsadalmi-velemenyezes',  [VelemenyezesController::class, 'index'])->name('tarsadalmi-velemenyezes');
     Route::get('/bizottsagi-jegyzokonyvek/{year}',  [BizottsagiJegyzokonyvController::class, 'index'])->name('bizottsagi-jegyzokonyvek');
+    Route::get('/esemenyek',  [EsemenyController::class, 'index'])->name('esemenyek');
 });
 
 Route::middleware([
@@ -208,9 +211,15 @@ Route::middleware([
     Route::get('/admin/bizottsagi-jegyzokonyv-hozzaadas', function () {
         return view('vendor/jetstream/bizottsagi-jegyzokonyv-hozzaadas');
     })->name('bizottsagi-jegyzokonyv-hozzaadas');
+    Route::get('/admin/osszes-bizottsagi-jegyzokonyv', function () {
+        return view('vendor/jetstream/osszes-bizottsagi-jegyzokonyv');
+    })->name('osszes-bizottsagi-jegyzokonyv');
     Route::get('/admin/esemenyfeltoltes', function () {
         return view('vendor/jetstream/esemenyfeltoltes');
     })->name('esemenyfeltoltes');
+    Route::get('/admin/osszes-esemeny', function () {
+        return view('vendor/jetstream/osszes-esemeny');
+    })->name('osszes-esemeny');
     Route::get('/admin/fejlesztesek-palyazatok-feltoltese', function () {
         return view('vendor/jetstream/fejlesztesek-palyazatok-feltoltese');
     })->name('fejlesztesek-palyazatok-feltoltese');

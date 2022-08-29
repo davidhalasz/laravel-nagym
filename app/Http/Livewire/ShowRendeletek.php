@@ -18,8 +18,8 @@ class ShowRendeletek extends Component
     {
 
         $rendelet=Rendelet::findOrFail($id);
-        if(Storage::exists('public/rendeletek/'.$rendelet->filename)){
-            Storage::delete('public/rendeletek/'.$rendelet->filename);
+        if(Storage::exists('public/rendeletek/'.$rendelet->year.'/'.$rendelet->filename)){
+            Storage::delete('public/rendeletek/'.$rendelet->year.'/'.$rendelet->filename);
             $rendelet->delete();
         }else{
             dd('File does not exists.');

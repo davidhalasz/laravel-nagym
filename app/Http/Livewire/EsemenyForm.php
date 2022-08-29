@@ -16,6 +16,8 @@ class EsemenyForm extends Component
 
     private function resetInputFields(){
         $this->title = '';
+        $this->endDate = '';
+        $this->startDate = '';
         $this->filepath = '';
     }
 
@@ -23,9 +25,13 @@ class EsemenyForm extends Component
     {
         $this->validate([
             'title' => 'required',
+            'startDate' => 'required',
+            'endDate' => 'required',
             'filepath' => 'required|mimes:pdf,jpg,png,jpeg',
         ],
         [
+            'startDate.required' => 'Időpont megadása kötelező',
+            'endDate.required' => 'Időpont megadása kötelező',
             'title.required' => 'Leírás megadása kötelező',
             'filepath.required' => 'Fájl kiválasztása kötelező',
         ]);
@@ -48,12 +54,10 @@ class EsemenyForm extends Component
     public function render()
     {
         date_default_timezone_set('Europe/Budapest');
-        $date = date('Y-m-d');
-        $this->startDate = $date;
+        $date = date('Y-m-d H:i');
 
         return view('livewire.esemeny-form', [
             'currentDate' => $date,
-            $this->startDate = $date,
         ]);
     }
 }
